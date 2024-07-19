@@ -10,29 +10,21 @@ Creators (initial authors):
 In the current version, changes were done by (later authors):
 - Liming Li, https://github.com/clarkliming
 - Joe Zhu, https://github.com/shajoezhu and http://www.linkedin.com/in/joe-zhu-464b5818
-- Shuang Li, https://github.com/shuangli22
 License: This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
-The source files are hosted at https://github.com/openpharma/workshop-r-swe, which is forked from
-the original version at https://github.com/kkmann/workshop-r-swe.
+The source files are hosted at https://github.com/pharmarug/pharmasug2024-r-workshop, which is forked from
+the original version at https://github.com/openpharma/workshop-r-swe.
 Important: To use this work you must provide the name of the creators (initial authors), a link to the material, a link to the license, and indicate if changes were made.
 --> 
 
 Welcome to the homepage of the workshop *"Good Software Engineering Practice for R Packages"*. In this course participants will learn hands-on skills and tools to engineer reliable R packages used in biostatistics. The day will be a mix of presentations and exercises. Participants need to be comfortable with writing functions in R and use their own laptops.
 
-## Next Event
+## Up-coming Event
 
-The next event will be online, live streamed from Roche Shanghai, so perfect for attendees from Asia!
-Please mark the Friday 24th March 2023 and register here:
-
-![](resources/asia-24Mar2023-barcode.png)
-
-Please note that all the content will be in English. 
-Workshop invitations and preparation details for the practice will be sent out in emails.
-This event is sponsored/organized by Roche PD China Data Sciences and advertised also through
-the R User Group (RUG) China. Presenters will be Daniel Sabanes Bove, Liming Li, Shuang Li and Joe Zhu.
-
-We are looking forward to many online participants!
+The next event will be on-site, at the Beijing Marriott Hotel Northeast, on August 1st, 2024.
+Please note that all the content will be in English, delivered in English and Chinese. 
+This event is sponsored/organized by PharamaSUG and advertised also through
+the R User Group (RUG) China. Presenters will be Liming Li and Joe Zhu.
 
 ## Communication
 
@@ -70,4 +62,5 @@ For the course, participants are required to use their own laptop to be able to 
 
 ## Past Events
 
+- 24th March 2023, Shanghai
 - 10th February 2023, Basel

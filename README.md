@@ -1,7 +1,3 @@
-# GSWEP4R Workshop
+# Good Software Engineering Practice for R Packages Workshop
 
-Sources and materials for the *"Good Software Engineering Practice for R Packages"* workshop.
-
-- [GSWEP4R Workshop Website](https://openpharma.github.io/workshop-r-swe/)
-
-- [Website of the Software Engineering Working Group](https://rconsortium.github.io/asa-biop-swe-wg/)
+Sources and materials for the *"Good Software Engineering Practice for R Packages"* workshop at the [PharmaSUG conference 2024](https://www.pharmasug-china.org/). This is a part of the series of workshop from the [GSWEP4R Workshop ](https://openpharma.github.io/workshop-r-swe/)
