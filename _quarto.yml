@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "GSWEP4R Workshop"
-  description: "BBS Course: Good Software Engineering Practice with R"
-  site-url: https://openpharma.github.io/workshop-r-swe/
+  title: "PharmaSUG China 2024 Pre-conference Training"
+  description: "Good Software Engineering Practice with R"
+  site-url: https://pharmarug.github.io/pharmasug2024-r-workshop/
   search: true
   navbar:
     left:
@@ -17,10 +17,10 @@ website:
         icon: "file-earmark-slides"
   page-footer:
     center:
-      - text: "About the Software Engineering Working Group"
-        href: https://rconsortium.github.io/asa-biop-swe-wg/
+      - text: "PharmaSUG 2024"
+        href: https://www.pharmasug-china.org/
       - text: "Source Code on GitHub"
-        href: https://github.com/openpharma/workshop-r-swe
+        href: https://github.com/pharmarug/pharmasug2024-r-workshop
 
 format:
   html:
