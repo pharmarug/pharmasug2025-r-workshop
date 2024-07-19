@@ -1,6 +1,6 @@
 ---
 title: "1 Introduction"
-author: "Daniel, Liming, Shuang, Joe"
+author: "Liming and Joe"
 description: "Introduction and outline of program.</br>[Photo CC0 by Mabel Amber on pexels.com]{.copyright}"
 image: thumbnails/hello.jpg
 ---
@@ -11,20 +11,6 @@ image: thumbnails/hello.jpg
 
 *Any opinions expressed in this presentation and on the following slides are solely those of the presenter and not necessarily those of Roche.*
 
-## Daniel
-
-::: columns
-::: {.column width="30%"}
-![](resources/daniel.jpg)
-:::
-
-::: {.column width="70%"}
--   Statistician (Ph.D. in 2013 on Bayesian Model Selection)
--   Biostatistician at Roche for 5 years, Data Scientist at Google for 2 years, Statistical Software Engineer at Roche for the last 3 years
--   Multiple R packages on CRAN and Bioconductor, co-wrote book on Likelihood and Bayesian Inference, chair of the ASA BIOP working group on Software Engineering (SWE WG)
--   feel free to connect at `r fontawesome::fa("linkedin")` [LinkedIn](https://www.linkedin.com/in/danielsabanesbove/) or `r fontawesome::fa("github")` [Github](https://github.com/danielinteractive)
-:::
-:::
 
 ## Liming
 
@@ -56,20 +42,6 @@ image: thumbnails/hello.jpg
 :::
 :::
 
-## Shuang
-
-::: columns
-::: {.column width="30%"}
-![](resources/Shuang.jpg)
-:::
-
-::: {.column width="70%"}
--   Master in Pharmacology from Fudan University
--   5-year experience in clinical data management, curation and related R tools development
--   Technical Lead of several data FARIification R packages, co-auther of the Restrict Data Check Shiny App and the Raw Data Compare R Package
--   Feel free to connect at [`r fontawesome::fa("github")` Github](https://github.com/shuangli22 "Shuang GitHub")
-:::
-:::
 
 ## What you will learn today
 
@@ -79,8 +51,6 @@ image: thumbnails/hello.jpg
 -   Learn & apply fundamentals of quality control for R `r fontawesome::fa("cube")`
 -   Get crash-course in version control to stay organized
 -   Try out modern collaboration techniques on GitHub.com
--   Learn how to make an R `r fontawesome::fa("cube")` available to others
--   Get a starting point for sustainable Shiny app development
 
 ## Program outline
 
@@ -118,11 +88,6 @@ readr::read_csv("resources/program.csv", col_types = "cc") |>
 -   Curiosity `r emoji::emoji("curious")`
 -   Positive attitude `r emoji::emoji("smile")`
 
-## Enter menti.com: 4458 3431
-
-![](resources/mentimeter_qr_code_intro.png)
-
-##  {background-iframe="https://www.mentimeter.com/app/presentation/alunb5x5bjy78a86vwrsac53qhau9uoi/embed" background-interactive="true"}
 
 ## What do we mean by GSWEP4R\*?
 
