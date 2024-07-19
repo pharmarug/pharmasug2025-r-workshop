@@ -32,7 +32,7 @@ image: thumbnails/hello.jpg
 ::: columns
 ::: {.column width="70%"}
 -   Ph.D. in Statistics
--   Postdoc at the University of Oxford for 6 years, Data Scientist at Roche for the last 3 years, technical engineering lead for the NEST SME team.
+-   Postdoc at the University of Oxford for 6 years, Data Scientist at Roche for the last 4 years, technical engineering lead for the NEST SME team, technical lead for auto-translation and slide automation initiatives at Roche.
 -   Multiple open-source packages on Github and CRAN, see [this page](https://shajoezhu.github.io/software/) for details.
 -   Feel free to connect at [`r fontawesome::fa("linkedin")` LinkedIn](http://www.linkedin.com/in/joe-zhu-464b5818 "Joe Zhu at LinkedIn") or [`r fontawesome::fa("github")` Github](https://github.com/shajoezhu "Joe Zhu at GitHub")
 :::
@@ -72,9 +72,6 @@ readr::read_csv("resources/program.csv", col_types = "cc") |>
     -   use to ask your peers questions
     -   will try to monitor during course
 
-## Enter WeChat
-
-![](resources/workshop-wechat.jfif)
 
 ## What you will need
 
