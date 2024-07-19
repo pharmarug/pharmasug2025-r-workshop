@@ -64,9 +64,9 @@ readr::read_csv("resources/program.csv", col_types = "cc") |>
 
 ## House-keeping
 
--   Course website at [openpharma.github.io/workshop-r-swe](https://openpharma.github.io/workshop-r-swe)
+-   Course website at [pharmarug.github.io/pharmasug2024-r-workshop/](https://pharmarug.github.io/pharmasug2024-r-workshop/)
     -   all slides
-    -   sources available at [github.com/openpharma/workshop-r-swe](https://github.com/openpharma/workshop-r-swe)
+    -   sources available at [github.com/pharmarug/pharmasug2024-r-workshop](https://github.com/pharmarug/pharmasug2024-r-workshop)
     -   all materials CC-BY 4.0
 -   We have a WeChat channel for this course that you can connect to
     -   use to ask your peers questions
@@ -201,7 +201,6 @@ knitr::include_graphics("resources/pkg_graph.png")
 - In the current version, changes were done by (later authors):
   Liming Li [`r fontawesome::fa("github")`](https://github.com/clarkliming),
   Joe Zhu [`r fontawesome::fa("github")`](https://github.com/shajoezhu) [`r fontawesome::fa("linkedin")`](http://www.linkedin.com/in/joe-zhu-464b5818),
-  Shuang Li [`r fontawesome::fa("github")`](https://github.com/shuangli22)
 - This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 - The source files are hosted at [github.com/openpharma/workshop-r-swe](https://github.com/openpharma/workshop-r-swe), which is forked from the original version at [github.com/kkmann/workshop-r-swe](https://github.com/kkmann/workshop-r-swe/).
 - Important: To use this work you must provide the name of the creators (initial authors), a link to the material, a link to the license, and indicate if changes were made
