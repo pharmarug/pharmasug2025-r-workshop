@@ -32,7 +32,7 @@ We offer a [gitter chat channel](https://matrix.to/#/#workshop-r-swe_community:g
 
 ## Workshop Program
 
-This is the program for 24th March 2023, all times in China Standard Time (GMT+8):
+This is the program for 1st August 2024, all times in China Standard Time (GMT+8):
 
 ```{r}
 #| echo: false
