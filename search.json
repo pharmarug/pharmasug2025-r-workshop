@@ -25,7 +25,7 @@
     "href": "index.html#workshop-program",
     "title": "Good Software Engineering Practice for R Packages",
     "section": "Workshop Program",
-    "text": "Workshop Program\nThis is the program for 24th March 2023, all times in China Standard Time (GMT+8):\n\n\n\n\n\n13:30 - 14:00\nIntroduction and outline\n\n\n14:00 - 14:45\nR Package Syntax\n\n\n14:45 - 15:30\nSoftware Engineering Workflow\n\n\n15:30 - 15:45\nTea Break\n\n\n15:45 - 16:30\nPackage Quality\n\n\n16:30 - 17:15\nCollaboration via GitHub\n\n\n17:15 - 17:30\nSummary and Discussion"
+    "text": "Workshop Program\nThis is the program for 1st August 2024, all times in China Standard Time (GMT+8):\n\n\n\n\n\n13:30 - 14:00\nIntroduction and outline\n\n\n14:00 - 14:45\nR Package Syntax\n\n\n14:45 - 15:30\nSoftware Engineering Workflow\n\n\n15:30 - 15:45\nTea Break\n\n\n15:45 - 16:30\nPackage Quality\n\n\n16:30 - 17:15\nCollaboration via GitHub\n\n\n17:15 - 17:30\nSummary and Discussion"
   },
   {
     "objectID": "index.html#prerequisites-technical-setup",
@@ -431,14 +431,14 @@
     "href": "slides/03_workflow.html#example---step-3-packaging-4",
     "title": "3 An R Package Engineering Workflow",
     "section": "Example - Step 3: Packaging",
-    "text": "Example - Step 3: Packaging\nThe output is impractical, e.g., we need to scroll down:\n\nx &lt;- getSimulatedTwoArmMeans(n1 = 50, n2 = 50, mean1 = 5, mean2 = 7, sd1 = 3, sd2 = 4)\nx\n\n$n1\n[1] 50\n\n$n2\n[1] 50\n\n$mean1\n[1] 5\n\n$mean2\n[1] 7\n\n$sd1\n[1] 3\n\n$sd2\n[1] 4\n\n$data\n    group      values\n1       1  6.93467939\n2       1  3.74879664\n3       1  2.30852729\n4       1  5.06913874\n5       1  3.84942175\n6       1  4.08680738\n7       1  3.76274515\n8       1  7.03654052\n9       1  9.21082515\n10      1  1.17802988\n11      1  7.79291483\n12      1  5.24465531\n13      1  1.32364238\n14      1  7.90967544\n15      1  8.98875665\n16      1  5.22601210\n17      1  2.50032173\n18      1  1.63024750\n19      1  6.11321293\n20      1  3.44945390\n21      1  1.44594644\n22      1  6.23021753\n23      1  7.45247338\n24      1  3.86757588\n25      1  3.54013357\n26      1  7.64233623\n27      1  7.70400260\n28      1 -0.44742089\n29      1  7.86194788\n30      1  1.84311317\n31      1  2.09561201\n32      1  5.04380467\n33      1  6.52658107\n34      1  2.04407059\n35      1 12.48169241\n36      1  4.54217846\n37      1  1.75359918\n38      1  5.73032652\n39      1  3.21094933\n40      1  4.10710901\n41      1  4.57012454\n42      1  1.94677048\n43      1  5.45454488\n44      1  2.72701228\n45      1 -3.04308394\n46      1  7.61607384\n47      1  1.95715555\n48      1  7.99399150\n49      1  3.60667683\n50      1  2.17847748\n51      2 12.41058862\n52      2 11.33452574\n53      2  5.31022794\n54      2 18.82344601\n55      2  7.10555539\n56      2  7.37556616\n57      2  8.81011374\n58      2 11.99711052\n59      2 11.55150142\n60      2  6.23374807\n61      2  8.39260291\n62      2  4.50842545\n63      2  1.82632511\n64      2  6.98610332\n65      2  0.97155641\n66      2  6.28084150\n67      2 10.09961519\n68      2  8.14153291\n69      2 10.30503723\n70      2  1.36943801\n71      2  6.49835356\n72      2  2.96774497\n73      2  4.68000607\n74      2  5.40566398\n75      2  4.67486391\n76      2  7.73545418\n77      2  2.36632917\n78      2  6.36915614\n79      2  8.13043604\n80      2  5.67037083\n81      2  0.70786388\n82      2  0.49651236\n83      2 -0.68938179\n84      2  6.91083624\n85      2  5.30268567\n86      2 -1.34910770\n87      2  7.30667599\n88      2  7.64372569\n89      2  8.87471469\n90      2 -0.04186591\n91      2  8.34098839\n92      2 13.74976824\n93      2  6.59858525\n94      2 -1.52213219\n95      2  0.02372749\n96      2 -0.92136922\n97      2 10.48154780\n98      2  9.43747804\n99      2  8.38907623\n100     2  9.87628437\n\nattr(,\"class\")\n[1] \"SimulationResult\"\n\n\n\nSolution: implement generic function print"
+    "text": "Example - Step 3: Packaging\nThe output is impractical, e.g., we need to scroll down:\n\nx &lt;- getSimulatedTwoArmMeans(n1 = 50, n2 = 50, mean1 = 5, mean2 = 7, sd1 = 3, sd2 = 4)\nx\n\n$n1\n[1] 50\n\n$n2\n[1] 50\n\n$mean1\n[1] 5\n\n$mean2\n[1] 7\n\n$sd1\n[1] 3\n\n$sd2\n[1] 4\n\n$data\n    group      values\n1       1  6.88917085\n2       1  1.89958435\n3       1  9.35576116\n4       1  1.37335551\n5       1  6.79825252\n6       1  5.35652201\n7       1  2.25521075\n8       1  4.65080681\n9       1  8.53146250\n10      1  7.70388914\n11      1  5.02880769\n12      1 -2.99778041\n13      1  3.76034173\n14      1  7.98401148\n15      1  5.34508415\n16      1  0.34663264\n17      1 10.74101500\n18      1  3.11004798\n19      1  9.68193919\n20      1  2.04752901\n21      1  5.34207736\n22      1  4.61036694\n23      1  5.66808437\n24      1  2.60461573\n25      1  4.39973450\n26      1  7.27735898\n27      1 -0.95125871\n28      1  3.72230096\n29      1  9.52350987\n30      1  4.95236564\n31      1  1.58256328\n32      1  6.68717789\n33      1  4.38269127\n34      1  9.05807618\n35      1  3.52007073\n36      1 -0.04447867\n37      1  6.41567115\n38      1  9.24742944\n39      1  1.94496022\n40      1  6.42389411\n41      1  7.37880315\n42      1  1.69300195\n43      1 10.89654150\n44      1  6.79598704\n45      1 13.47355717\n46      1  7.28843032\n47      1  7.02793105\n48      1  8.09738003\n49      1  5.27533153\n50      1  7.08867028\n51      2  7.83817813\n52      2 10.23396527\n53      2  5.63630627\n54      2 11.13490957\n55      2  4.72042943\n56      2  6.15991412\n57      2  4.37014825\n58      2  8.22947127\n59      2  1.66180676\n60      2 13.33066859\n61      2 12.31534506\n62      2  7.32809080\n63      2  3.58937922\n64      2 10.02311332\n65      2  2.36127823\n66      2  1.90228995\n67      2  6.58910430\n68      2  3.18493459\n69      2  5.45298302\n70      2  2.13764118\n71      2  4.97180149\n72      2  2.31573877\n73      2  4.66782660\n74      2  4.17622305\n75      2  2.39750730\n76      2 10.83124685\n77      2  6.07771867\n78      2  2.89958680\n79      2 14.42073688\n80      2 10.71155303\n81      2  8.55317248\n82      2  4.47948175\n83      2  3.73854345\n84      2 17.50784095\n85      2  6.06118832\n86      2  5.75646682\n87      2  1.51479171\n88      2  2.16811764\n89      2  4.36373075\n90      2 12.75372654\n91      2 11.01125625\n92      2  3.47549645\n93      2  9.12988650\n94      2  8.70437937\n95      2 10.84337595\n96      2  8.87440898\n97      2  5.82519602\n98      2  8.75614109\n99      2  2.96316455\n100     2  9.95332680\n\nattr(,\"class\")\n[1] \"SimulationResult\"\n\n\n\nSolution: implement generic function print"
   },
   {
     "objectID": "slides/03_workflow.html#example---step-3-packaging-5",
     "href": "slides/03_workflow.html#example---step-3-packaging-5",
     "title": "3 An R Package Engineering Workflow",
     "section": "Example - Step 3: Packaging",
-    "text": "Example - Step 3: Packaging\nGeneric function print:\n\nCodeRoxygenOutput\n\n\n\nprint.SimulationResult &lt;- function(x, ...) {\n    args &lt;- list(n1 = x$n1, n2 = x$n2, \n        mean1 = x$mean1, mean2 = x$mean2, sd1 = x$sd1, sd2 = x$sd2)\n    \n    print(list(\n        args = format(args), \n        data = dplyr::tibble(x$data)\n    ), ...)\n}\nx\n\n\n\n\n#' @title\n#' Print Simulation Result\n#'\n#' @description\n#' Generic function to print a `SimulationResult` object.\n#'\n#' @param x a \\code{SimulationResult} object to print.\n#' @param ... further arguments passed to or from other methods.\n#' \n#' @examples\n#' x &lt;- getSimulatedTwoArmMeans(n1 = 50, n2 = 50, mean1 = 5, \n#'      mean2 = 7, sd1 = 3, sd2 = 4, seed = 123)\n#' print(x)\n#'\n#' @export\n\n\n\n\n\n$args\n   n1    n2 mean1 mean2   sd1   sd2 \n \"50\"  \"50\"   \"5\"   \"7\"   \"3\"   \"4\" \n\n$data\n# A tibble: 100 × 2\n   group values\n   &lt;dbl&gt;  &lt;dbl&gt;\n 1     1   6.93\n 2     1   3.75\n 3     1   2.31\n 4     1   5.07\n 5     1   3.85\n 6     1   4.09\n 7     1   3.76\n 8     1   7.04\n 9     1   9.21\n10     1   1.18\n# ℹ 90 more rows"
+    "text": "Example - Step 3: Packaging\nGeneric function print:\n\nCodeRoxygenOutput\n\n\n\nprint.SimulationResult &lt;- function(x, ...) {\n    args &lt;- list(n1 = x$n1, n2 = x$n2, \n        mean1 = x$mean1, mean2 = x$mean2, sd1 = x$sd1, sd2 = x$sd2)\n    \n    print(list(\n        args = format(args), \n        data = dplyr::tibble(x$data)\n    ), ...)\n}\nx\n\n\n\n\n#' @title\n#' Print Simulation Result\n#'\n#' @description\n#' Generic function to print a `SimulationResult` object.\n#'\n#' @param x a \\code{SimulationResult} object to print.\n#' @param ... further arguments passed to or from other methods.\n#' \n#' @examples\n#' x &lt;- getSimulatedTwoArmMeans(n1 = 50, n2 = 50, mean1 = 5, \n#'      mean2 = 7, sd1 = 3, sd2 = 4, seed = 123)\n#' print(x)\n#'\n#' @export\n\n\n\n\n\n$args\n   n1    n2 mean1 mean2   sd1   sd2 \n \"50\"  \"50\"   \"5\"   \"7\"   \"3\"   \"4\" \n\n$data\n# A tibble: 100 × 2\n   group values\n   &lt;dbl&gt;  &lt;dbl&gt;\n 1     1   6.89\n 2     1   1.90\n 3     1   9.36\n 4     1   1.37\n 5     1   6.80\n 6     1   5.36\n 7     1   2.26\n 8     1   4.65\n 9     1   8.53\n10     1   7.70\n# ℹ 90 more rows"
   },
   {
     "objectID": "slides/03_workflow.html#preparation",
@@ -553,50 +553,50 @@
     "text": "GxP + R  = \n\nCore infrastructure packages only through industry\nQuality, burden sharing: open-source pharmaverse and others\nOpen methodological packages can de-risk innovative methods\nR packages make (statistical/methodological) code\n\ntestable (with documented evidence thereof, CRF 11)\nreusable\nshareable\neasier to document"
   },
   {
-    "objectID": "slides/08_conclusion.html#r-package-structure",
-    "href": "slides/08_conclusion.html#r-package-structure",
+    "objectID": "slides/07_conclusion.html#r-package-structure",
+    "href": "slides/07_conclusion.html#r-package-structure",
     "title": "8 Conclusion",
     "section": "R package structure",
     "text": "R package structure\n\nR package = folder structure with (many) conventions\nWith modern tools usethis, roxygen2 it is easy to start a new package\nPackaging a set of functions is an ideal way to share with collaborators and the public\nStart small and simple and over time you can learn additional options"
   },
   {
-    "objectID": "slides/08_conclusion.html#engineering-workflow",
-    "href": "slides/08_conclusion.html#engineering-workflow",
+    "objectID": "slides/07_conclusion.html#engineering-workflow",
+    "href": "slides/07_conclusion.html#engineering-workflow",
     "title": "8 Conclusion",
     "section": "Engineering Workflow",
     "text": "Engineering Workflow\n\nUse a workable workflow:\nIdea \\(\\rightarrow\\) Design docs \\(\\rightarrow\\) Programming \\(\\rightarrow\\) Quality check \\(\\rightarrow\\) Publication\n\nDon’t waste time on maintenance\nBe faster with release on CRAN\nFulfill regulatory requirements\n\nRefactor your one-off scripts that you want to use in a package\nUse assertions for all arguments \\(\\rightarrow\\) Usability/UX\nImplement common generics like print and plot"
   },
   {
-    "objectID": "slides/08_conclusion.html#ensuring-quality",
-    "href": "slides/08_conclusion.html#ensuring-quality",
+    "objectID": "slides/07_conclusion.html#ensuring-quality",
+    "href": "slides/07_conclusion.html#ensuring-quality",
     "title": "8 Conclusion",
     "section": "Ensuring Quality",
     "text": "Ensuring Quality\n\nApply common clean code rules, e.g.,\n\nUse testthat to test, test, and test\nUse covr to improve the test coverage\nUse styler to optimize the code styling\nDon’t repeat yourself!\n\nYour rewards are:\n\nMaintainability,\nExtensibility, and\nPerformance!"
   },
   {
-    "objectID": "slides/08_conclusion.html#collaboration",
-    "href": "slides/08_conclusion.html#collaboration",
+    "objectID": "slides/07_conclusion.html#collaboration",
+    "href": "slides/07_conclusion.html#collaboration",
     "title": "8 Conclusion",
     "section": "Collaboration",
     "text": "Collaboration\n\nVersion control is key\n\nMultiple people working on code without strong VC \\(\\leadsto\\) disaster!\nThere are different options, but git is the defacto standard for R packages\nGit needs a friend - use platforms like GitHub/GitLab/Bitbucket\n\nAutomated CI/CD allows for much quicker iteration\n\nAutomate tests to avoid bugs slipping back in\n\nTechnology does not solve everything - foster a positive culture\n\nKeep internal and external contributors engaged\nInvest in documentation to make it easier to contribute"
   },
   {
-    "objectID": "slides/08_conclusion.html#publication",
-    "href": "slides/08_conclusion.html#publication",
+    "objectID": "slides/07_conclusion.html#publication",
+    "href": "slides/07_conclusion.html#publication",
     "title": "8 Conclusion",
     "section": "Publication",
     "text": "Publication\n\npkgdown can help you easily create a nice website for your package\nVersions and licenses along with NEWS updates are important\nGitHub helps with tagging of release versions\nR-Hub helps with checking before CRAN submission"
   },
   {
-    "objectID": "slides/08_conclusion.html#thank-you",
-    "href": "slides/08_conclusion.html#thank-you",
+    "objectID": "slides/07_conclusion.html#thank-you",
+    "href": "slides/07_conclusion.html#thank-you",
     "title": "8 Conclusion",
     "section": "Thank you!",
     "text": "Thank you!\n\n\n\n\n\nIt was great to teach you today on how to build R packages\nLet’s keep in touch e.g. via gitter chat channel or wechat channel for this course that you can connect to\nWe welcome feedback on topics/format/content - reach out!"
   },
   {
-    "objectID": "slides/08_conclusion.html#possible-next-steps",
-    "href": "slides/08_conclusion.html#possible-next-steps",
+    "objectID": "slides/07_conclusion.html#possible-next-steps",
+    "href": "slides/07_conclusion.html#possible-next-steps",
     "title": "8 Conclusion",
     "section": "Possible next steps",
     "text": "Possible next steps\n\nBring the information back to your colleagues in your organization\nStart building your first own package and share internally first\nLater publish it open source on GitHub and submit it to CRAN\nLearn about more tips and tricks how to extend R"
