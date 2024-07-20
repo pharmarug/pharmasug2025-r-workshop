@@ -336,160 +336,6 @@
     "text": "Let’s try this out now 😊\n\nSet up a new R package with a fancy name\nFill out the DESCRIPTION file\nInclude a new function\nAdd roxygen documentation\nExport the function to the namespace\nProduce the package documentation\nRun checks\nBuild the package"
   },
   {
-    "objectID": "slides/08_conclusion.html#enter-menti.com-7920-6996",
-    "href": "slides/08_conclusion.html#enter-menti.com-7920-6996",
-    "title": "8 Conclusion",
-    "section": "Enter menti.com: 7920 6996",
-    "text": "Enter menti.com: 7920 6996"
-  },
-  {
-    "objectID": "slides/08_conclusion.html#r-package-structure",
-    "href": "slides/08_conclusion.html#r-package-structure",
-    "title": "8 Conclusion",
-    "section": "R package structure",
-    "text": "R package structure\n\nR package = folder structure with (many) conventions\nWith modern tools usethis, roxygen2 it is easy to start a new package\nPackaging a set of functions is an ideal way to share with collaborators and the public\nStart small and simple and over time you can learn additional options"
-  },
-  {
-    "objectID": "slides/08_conclusion.html#engineering-workflow",
-    "href": "slides/08_conclusion.html#engineering-workflow",
-    "title": "8 Conclusion",
-    "section": "Engineering Workflow",
-    "text": "Engineering Workflow\n\nUse a workable workflow:\nIdea \\(\\rightarrow\\) Design docs \\(\\rightarrow\\) Programming \\(\\rightarrow\\) Quality check \\(\\rightarrow\\) Publication\n\nDon’t waste time on maintenance\nBe faster with release on CRAN\nFulfill regulatory requirements\n\nRefactor your one-off scripts that you want to use in a package\nUse assertions for all arguments \\(\\rightarrow\\) Usability/UX\nImplement common generics like print and plot"
-  },
-  {
-    "objectID": "slides/08_conclusion.html#ensuring-quality",
-    "href": "slides/08_conclusion.html#ensuring-quality",
-    "title": "8 Conclusion",
-    "section": "Ensuring Quality",
-    "text": "Ensuring Quality\n\nApply common clean code rules, e.g.,\n\nUse testthat to test, test, and test\nUse covr to improve the test coverage\nUse styler to optimize the code styling\nDon’t repeat yourself!\n\nYour rewards are:\n\nMaintainability,\nExtensibility, and\nPerformance!"
-  },
-  {
-    "objectID": "slides/08_conclusion.html#collaboration",
-    "href": "slides/08_conclusion.html#collaboration",
-    "title": "8 Conclusion",
-    "section": "Collaboration",
-    "text": "Collaboration\n\nVersion control is key\n\nMultiple people working on code without strong VC \\(\\leadsto\\) disaster!\nThere are different options, but git is the defacto standard for R packages\nGit needs a friend - use platforms like GitHub/GitLab/Bitbucket\n\nAutomated CI/CD allows for much quicker iteration\n\nAutomate tests to avoid bugs slipping back in\n\nTechnology does not solve everything - foster a positive culture\n\nKeep internal and external contributors engaged\nInvest in documentation to make it easier to contribute"
-  },
-  {
-    "objectID": "slides/08_conclusion.html#publication",
-    "href": "slides/08_conclusion.html#publication",
-    "title": "8 Conclusion",
-    "section": "Publication",
-    "text": "Publication\n\npkgdown can help you easily create a nice website for your package\nVersions and licenses along with NEWS updates are important\nGitHub helps with tagging of release versions\nR-Hub helps with checking before CRAN submission"
-  },
-  {
-    "objectID": "slides/08_conclusion.html#thank-you",
-    "href": "slides/08_conclusion.html#thank-you",
-    "title": "8 Conclusion",
-    "section": "Thank you!",
-    "text": "Thank you!\n\n\n\n\n\nIt was great to teach you today on how to build R packages\nLet’s keep in touch e.g. via gitter chat channel or wechat channel for this course that you can connect to\nWe welcome feedback on topics/format/content - reach out!"
-  },
-  {
-    "objectID": "slides/08_conclusion.html#possible-next-steps",
-    "href": "slides/08_conclusion.html#possible-next-steps",
-    "title": "8 Conclusion",
-    "section": "Possible next steps",
-    "text": "Possible next steps\n\nBring the information back to your colleagues in your organization\nStart building your first own package and share internally first\nLater publish it open source on GitHub and submit it to CRAN\nLearn about more tips and tricks how to extend R"
-  },
-  {
-    "objectID": "slides/01_intro.html#disclaimer",
-    "href": "slides/01_intro.html#disclaimer",
-    "title": "1 Introduction",
-    "section": "Disclaimer",
-    "text": "Disclaimer\n\nAny opinions expressed in this presentation and on the following slides are solely those of the presenter and not necessarily those of Roche."
-  },
-  {
-    "objectID": "slides/01_intro.html#liming",
-    "href": "slides/01_intro.html#liming",
-    "title": "1 Introduction",
-    "section": "Liming",
-    "text": "Liming\n\n\n\nMaster in Biostatistics from Fudan University\nStatistical Programmer in Roche for 4 years, technical engineering lead for chevron team in NEST project\nMember of ASA BIOP working group on Software Engineering (SWE WG) mmrm taskforce\nFeel free to connect at  Github"
-  },
-  {
-    "objectID": "slides/01_intro.html#joe",
-    "href": "slides/01_intro.html#joe",
-    "title": "1 Introduction",
-    "section": "Joe",
-    "text": "Joe\n\n\n\nPh.D. in Statistics\nPostdoc at the University of Oxford for 6 years, Data Scientist at Roche for the last 4 years, technical engineering lead for the NEST SME team, technical lead for auto-translation and slide automation initiatives at Roche.\nMultiple open-source packages on Github and CRAN, see this page for details.\nFeel free to connect at  LinkedIn or  Github"
-  },
-  {
-    "objectID": "slides/01_intro.html#what-you-will-learn-today",
-    "href": "slides/01_intro.html#what-you-will-learn-today",
-    "title": "1 Introduction",
-    "section": "What you will learn today",
-    "text": "What you will learn today\n\nUnderstand the basic structure of an R package\nCreate your own R \nLearn about & apply professional  development workflow\nLearn & apply fundamentals of quality control for R \nGet crash-course in version control to stay organized\nTry out modern collaboration techniques on GitHub.com"
-  },
-  {
-    "objectID": "slides/01_intro.html#program-outline",
-    "href": "slides/01_intro.html#program-outline",
-    "title": "1 Introduction",
-    "section": "Program outline",
-    "text": "Program outline\n\n\n\n\n\n13:30 - 14:00\nIntroduction and outline\n\n\n14:00 - 14:45\nR Package Syntax\n\n\n14:45 - 15:30\nSoftware Engineering Workflow\n\n\n15:30 - 15:45\nTea Break\n\n\n15:45 - 16:30\nPackage Quality\n\n\n16:30 - 17:15\nCollaboration via GitHub\n\n\n17:15 - 17:30\nSummary and Discussion"
-  },
-  {
-    "objectID": "slides/01_intro.html#house-keeping",
-    "href": "slides/01_intro.html#house-keeping",
-    "title": "1 Introduction",
-    "section": "House-keeping",
-    "text": "House-keeping\n\nCourse website at pharmarug.github.io/pharmasug2024-r-workshop/\n\nall slides\nsources available at github.com/pharmarug/pharmasug2024-r-workshop\nall materials CC-BY 4.0\n\nWe have a WeChat channel for this course that you can connect to\n\nuse to ask your peers questions\nwill try to monitor during course"
-  },
-  {
-    "objectID": "slides/01_intro.html#what-you-will-need",
-    "href": "slides/01_intro.html#what-you-will-need",
-    "title": "1 Introduction",
-    "section": "What you will need",
-    "text": "What you will need\n\nGithub.com (free) account \nRecommended: posit.cloud \n\nFree tier sufficient\nComes with everything installed\nAlternative: local R development environment with\n\ngit \nRtools/R/Rstudio IDE \n\n\nCuriosity 🦝\nPositive attitude 😄"
-  },
-  {
-    "objectID": "slides/01_intro.html#what-do-we-mean-by-gswep4r",
-    "href": "slides/01_intro.html#what-do-we-mean-by-gswep4r",
-    "title": "1 Introduction",
-    "section": "What do we mean by GSWEP4R*?",
-    "text": "What do we mean by GSWEP4R*?\n\n\nApplying concept of GxP to SWE with R\nImprove quality of R code/packages, particularly in regulated enviroments but not limited to!\nNot a fixed term, we share our perspectives\nCollection of best practices\nDo not reinvent the wheel: learn from IT/open source space\n\n\n* Good Software Engineering Practice for R"
-  },
-  {
-    "objectID": "slides/01_intro.html#why-care-about-gswep4r",
-    "href": "slides/01_intro.html#why-care-about-gswep4r",
-    "title": "1 Introduction",
-    "section": "Why care about GSWEP4R?",
-    "text": "Why care about GSWEP4R?\n\nMove to / integration of R in pharma is clear trend\nR is a powerful yet complex ecosystem\n\nCore component: R packages\nMature analysts: users & contributors\nDeep understanding crucial, even to just assess quality\n\nAnalyses increasingly require complex scripts/programs  \\(\\leadsto\\) line between programming and data analysis blurs\nValue: de-risking use of R and efficiency gains"
-  },
-  {
-    "objectID": "slides/01_intro.html#start-small---from-script-to-package",
-    "href": "slides/01_intro.html#start-small---from-script-to-package",
-    "title": "1 Introduction",
-    "section": "Start small - from script to package",
-    "text": "Start small - from script to package\n\nEncapsulate behavior (functions)\nAvoid global state/variables\nAdopt consistent coding style\nDocument well\nAdd test cases\nVersion your code\nShare as ‘bundle’\n\n\\(\\leadsto\\) R package"
-  },
-  {
-    "objectID": "slides/01_intro.html#the-r-package-ecosystem---huge-success",
-    "href": "slides/01_intro.html#the-r-package-ecosystem---huge-success",
-    "title": "1 Introduction",
-    "section": "The R package ecosystem - huge success",
-    "text": "The R package ecosystem - huge success"
-  },
-  {
-    "objectID": "slides/01_intro.html#gxp-r",
-    "href": "slides/01_intro.html#gxp-r",
-    "title": "1 Introduction",
-    "section": "GxP + R  = ",
-    "text": "GxP + R  = \n\nCore infrastructure packages only through industry\nQuality, burden sharing: open-source pharmaverse and others\nOpen methodological packages can de-risk innovative methods\nR packages make (statistical/methodological) code\n\ntestable (with documented evidence thereof, CRF 11)\nreusable\nshareable\neasier to document"
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "PharmaSUG China 2024 Pre-conference Training",
-    "section": "",
-    "text": "Attribution 4.0 International\n=======================================================================\nCreative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.\nUsing Creative Commons Public Licenses\nCreative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.\n Considerations for licensors: Our public licenses are\n intended for use by those authorized to give the public\n permission to use material in ways otherwise restricted by\n copyright and certain other rights. Our licenses are\n irrevocable. Licensors should read and understand the terms\n and conditions of the license they choose before applying it.\n Licensors should also secure all rights necessary before\n applying our licenses so that the public can reuse the\n material as expected. Licensors should clearly mark any\n material not subject to the license. This includes other CC-\n licensed material, or material used under an exception or\n limitation to copyright. More considerations for licensors:\nwiki.creativecommons.org/Considerations_for_licensors\n\n Considerations for the public: By using one of our public\n licenses, a licensor grants the public permission to use the\n licensed material under specified terms and conditions. If\n the licensor's permission is not necessary for any reason--for\n example, because of any applicable exception or limitation to\n copyright--then that use is not regulated by the license. Our\n licenses grant only permissions under copyright and certain\n other rights that a licensor has authority to grant. Use of\n the licensed material may still be restricted for other\n reasons, including because others have copyright or other\n rights in the material. A licensor may make special requests,\n such as asking that all changes be marked or described.\n Although not required by our licenses, you are encouraged to\n respect those requests where reasonable. More considerations\n for the public: \nwiki.creativecommons.org/Considerations_for_licensees\n=======================================================================\nCreative Commons Attribution 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\n\nreproduce and Share the Licensed Material, in whole or in part; and\nproduce, reproduce, and Share Adapted Material.\n\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)\n\nnever produces Adapted Material.\n\nDownstream recipients.\n\nOffer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nNo downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\n\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\n\nretain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nindicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nindicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\n\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\nIf You Share Adapted Material You produce, the Adapter’s License You apply must not prevent recipients of the Adapted Material from complying with this Public License.\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.\nTO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES, COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n=======================================================================\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
-  },
-  {
-    "objectID": "listing.html",
-    "href": "listing.html",
-    "title": "Slides",
-    "section": "",
-    "text": "1 Introduction\n\n\nGood Software Engineering Practice for R Packages\n\n\nIntroduction and outline of program.Photo CC0 by Mabel Amber on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nLiming and Joe\n\n\n\n\n\n\n\n\n\n\n\n\n2 R packages\n\n\nGood Software Engineering Practice for R Packages\n\n\nR package syntax + practicalPhoto CC0 by cottonbro studio on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nLiming\n\n\n\n\n\n\n\n\n\n\n\n\n3 An R Package Engineering Workflow\n\n\nGood Software Engineering Practice for R Packages\n\n\nWorkflow for creating R packages + practicalPhoto CC0 by Andrea Piacquadio on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nDaniel\n\n\n\n\n\n\n\n\n\n\n\n\n4 Ensuring Quality\n\n\nGood Software Engineering Practice for R Packages\n\n\nPackage quality + exercisePhoto CC0 by Pixabay on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nJoe Zhu\n\n\n\n\n\n\n\n\n\n\n\n\n5 Version Control & Collaboration\n\n\nGood Software Engineering Practice for R Packages\n\n\nCollaboration via GitHub + practicalPhoto CC0 by THIS IS ZUN on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nShuang\n\n\n\n\n\n\n\n\n\n\n\n\n6 Publication\n\n\nGood Software Engineering Practice for R Packages\n\n\nPublication of R packages + practicalPhoto CC0 by Andrea Piacquadio on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nLiming\n\n\n\n\n\n\n\n\n\n\n\n\n7 Shiny Development\n\n\nGood Software Engineering Practice for R Packages\n\n\nBest Practices for Shiny App DevelopmentPhoto by Pixabay on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nDaniel\n\n\n\n\n\n\n\n\n\n\n\n\n8 Conclusion\n\n\nGood Software Engineering Practice for R Packages\n\n\nDiscussion of learning experience, summary of workflow, conclusion and next steps.Photo by Ann H on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nJoe Zhu\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "slides/03_workflow.html#typical-work-steps",
     "href": "slides/03_workflow.html#typical-work-steps",
     "title": "3 An R Package Engineering Workflow",
@@ -585,14 +431,14 @@
     "href": "slides/03_workflow.html#example---step-3-packaging-4",
     "title": "3 An R Package Engineering Workflow",
     "section": "Example - Step 3: Packaging",
-    "text": "Example - Step 3: Packaging\nThe output is impractical, e.g., we need to scroll down:\n\nx &lt;- getSimulatedTwoArmMeans(n1 = 50, n2 = 50, mean1 = 5, mean2 = 7, sd1 = 3, sd2 = 4)\nx\n\n$n1\n[1] 50\n\n$n2\n[1] 50\n\n$mean1\n[1] 5\n\n$mean2\n[1] 7\n\n$sd1\n[1] 3\n\n$sd2\n[1] 4\n\n$data\n    group     values\n1       1  9.6022727\n2       1  4.9803493\n3       1  2.3516826\n4       1  5.7995612\n5       1  2.7052524\n6       1  4.4810014\n7       1  6.6524769\n8       1  6.3368867\n9       1  0.8357791\n10      1  2.9484575\n11      1  5.2483060\n12      1  5.8342675\n13      1  0.5024417\n14      1 -0.7099805\n15      1  3.8173956\n16      1  3.8629893\n17      1  7.0636620\n18      1  5.4220389\n19      1  3.3126958\n20      1  7.1871900\n21      1  6.8894754\n22      1  4.0064247\n23      1  1.6016673\n24      1  4.5298761\n25      1 12.2062604\n26      1  9.3093886\n27      1  5.7466465\n28      1  4.3297185\n29      1 12.9272313\n30      1  4.0794812\n31      1  2.1497240\n32      1  4.5485801\n33      1  1.0200636\n34      1  4.3724064\n35      1  6.1302181\n36      1  4.8415951\n37      1  2.2893665\n38      1  7.2935871\n39      1  1.3565696\n40      1  6.6177380\n41      1  4.1718627\n42      1  2.5743062\n43      1 -1.8904181\n44      1  3.1202163\n45      1  3.1123025\n46      1  6.7962145\n47      1  5.1183609\n48      1  5.8724782\n49      1  8.1372070\n50      1  9.6392034\n51      2  2.4684688\n52      2  7.5371568\n53      2 14.8738213\n54      2  6.8414136\n55      2  7.3463635\n56      2  9.1235652\n57      2  9.6581732\n58      2  2.8390698\n59      2  5.0213485\n60      2  2.4995753\n61      2 -3.4244732\n62      2  6.9310334\n63      2 12.1577038\n64      2 13.6036978\n65      2  2.6450283\n66      2  3.2288150\n67      2 14.4745230\n68      2 11.4424996\n69      2  8.2708867\n70      2 14.7925291\n71      2  9.6546155\n72      2  5.8385765\n73      2  3.4106380\n74      2 11.3280066\n75      2  5.7902890\n76      2  2.1867565\n77      2  5.1416236\n78      2  4.7860852\n79      2  8.4851186\n80      2  4.7808230\n81      2  4.0483791\n82      2 -0.6533314\n83      2  6.1744706\n84      2  5.9006250\n85      2  7.6793574\n86      2 11.0136195\n87      2 11.2719933\n88      2  6.1313689\n89      2 15.5475816\n90      2  9.0074397\n91      2  9.0972157\n92      2  5.8234096\n93      2  3.1775405\n94      2  3.8728326\n95      2  6.2387624\n96      2  7.9805923\n97      2  5.2494304\n98      2  3.3271023\n99      2  5.9485695\n100     2  7.3795133\n\nattr(,\"class\")\n[1] \"SimulationResult\"\n\n\n\nSolution: implement generic function print"
+    "text": "Example - Step 3: Packaging\nThe output is impractical, e.g., we need to scroll down:\n\nx &lt;- getSimulatedTwoArmMeans(n1 = 50, n2 = 50, mean1 = 5, mean2 = 7, sd1 = 3, sd2 = 4)\nx\n\n$n1\n[1] 50\n\n$n2\n[1] 50\n\n$mean1\n[1] 5\n\n$mean2\n[1] 7\n\n$sd1\n[1] 3\n\n$sd2\n[1] 4\n\n$data\n    group      values\n1       1  6.93467939\n2       1  3.74879664\n3       1  2.30852729\n4       1  5.06913874\n5       1  3.84942175\n6       1  4.08680738\n7       1  3.76274515\n8       1  7.03654052\n9       1  9.21082515\n10      1  1.17802988\n11      1  7.79291483\n12      1  5.24465531\n13      1  1.32364238\n14      1  7.90967544\n15      1  8.98875665\n16      1  5.22601210\n17      1  2.50032173\n18      1  1.63024750\n19      1  6.11321293\n20      1  3.44945390\n21      1  1.44594644\n22      1  6.23021753\n23      1  7.45247338\n24      1  3.86757588\n25      1  3.54013357\n26      1  7.64233623\n27      1  7.70400260\n28      1 -0.44742089\n29      1  7.86194788\n30      1  1.84311317\n31      1  2.09561201\n32      1  5.04380467\n33      1  6.52658107\n34      1  2.04407059\n35      1 12.48169241\n36      1  4.54217846\n37      1  1.75359918\n38      1  5.73032652\n39      1  3.21094933\n40      1  4.10710901\n41      1  4.57012454\n42      1  1.94677048\n43      1  5.45454488\n44      1  2.72701228\n45      1 -3.04308394\n46      1  7.61607384\n47      1  1.95715555\n48      1  7.99399150\n49      1  3.60667683\n50      1  2.17847748\n51      2 12.41058862\n52      2 11.33452574\n53      2  5.31022794\n54      2 18.82344601\n55      2  7.10555539\n56      2  7.37556616\n57      2  8.81011374\n58      2 11.99711052\n59      2 11.55150142\n60      2  6.23374807\n61      2  8.39260291\n62      2  4.50842545\n63      2  1.82632511\n64      2  6.98610332\n65      2  0.97155641\n66      2  6.28084150\n67      2 10.09961519\n68      2  8.14153291\n69      2 10.30503723\n70      2  1.36943801\n71      2  6.49835356\n72      2  2.96774497\n73      2  4.68000607\n74      2  5.40566398\n75      2  4.67486391\n76      2  7.73545418\n77      2  2.36632917\n78      2  6.36915614\n79      2  8.13043604\n80      2  5.67037083\n81      2  0.70786388\n82      2  0.49651236\n83      2 -0.68938179\n84      2  6.91083624\n85      2  5.30268567\n86      2 -1.34910770\n87      2  7.30667599\n88      2  7.64372569\n89      2  8.87471469\n90      2 -0.04186591\n91      2  8.34098839\n92      2 13.74976824\n93      2  6.59858525\n94      2 -1.52213219\n95      2  0.02372749\n96      2 -0.92136922\n97      2 10.48154780\n98      2  9.43747804\n99      2  8.38907623\n100     2  9.87628437\n\nattr(,\"class\")\n[1] \"SimulationResult\"\n\n\n\nSolution: implement generic function print"
   },
   {
     "objectID": "slides/03_workflow.html#example---step-3-packaging-5",
     "href": "slides/03_workflow.html#example---step-3-packaging-5",
     "title": "3 An R Package Engineering Workflow",
     "section": "Example - Step 3: Packaging",
-    "text": "Example - Step 3: Packaging\nGeneric function print:\n\nCodeRoxygenOutput\n\n\n\nprint.SimulationResult &lt;- function(x, ...) {\n    args &lt;- list(n1 = x$n1, n2 = x$n2, \n        mean1 = x$mean1, mean2 = x$mean2, sd1 = x$sd1, sd2 = x$sd2)\n    \n    print(list(\n        args = format(args), \n        data = dplyr::tibble(x$data)\n    ), ...)\n}\nx\n\n\n\n\n#' @title\n#' Print Simulation Result\n#'\n#' @description\n#' Generic function to print a `SimulationResult` object.\n#'\n#' @param x a \\code{SimulationResult} object to print.\n#' @param ... further arguments passed to or from other methods.\n#' \n#' @examples\n#' x &lt;- getSimulatedTwoArmMeans(n1 = 50, n2 = 50, mean1 = 5, \n#'      mean2 = 7, sd1 = 3, sd2 = 4, seed = 123)\n#' print(x)\n#'\n#' @export\n\n\n\n\n\n$args\n   n1    n2 mean1 mean2   sd1   sd2 \n \"50\"  \"50\"   \"5\"   \"7\"   \"3\"   \"4\" \n\n$data\n# A tibble: 100 × 2\n   group values\n   &lt;dbl&gt;  &lt;dbl&gt;\n 1     1  9.60 \n 2     1  4.98 \n 3     1  2.35 \n 4     1  5.80 \n 5     1  2.71 \n 6     1  4.48 \n 7     1  6.65 \n 8     1  6.34 \n 9     1  0.836\n10     1  2.95 \n# ℹ 90 more rows"
+    "text": "Example - Step 3: Packaging\nGeneric function print:\n\nCodeRoxygenOutput\n\n\n\nprint.SimulationResult &lt;- function(x, ...) {\n    args &lt;- list(n1 = x$n1, n2 = x$n2, \n        mean1 = x$mean1, mean2 = x$mean2, sd1 = x$sd1, sd2 = x$sd2)\n    \n    print(list(\n        args = format(args), \n        data = dplyr::tibble(x$data)\n    ), ...)\n}\nx\n\n\n\n\n#' @title\n#' Print Simulation Result\n#'\n#' @description\n#' Generic function to print a `SimulationResult` object.\n#'\n#' @param x a \\code{SimulationResult} object to print.\n#' @param ... further arguments passed to or from other methods.\n#' \n#' @examples\n#' x &lt;- getSimulatedTwoArmMeans(n1 = 50, n2 = 50, mean1 = 5, \n#'      mean2 = 7, sd1 = 3, sd2 = 4, seed = 123)\n#' print(x)\n#'\n#' @export\n\n\n\n\n\n$args\n   n1    n2 mean1 mean2   sd1   sd2 \n \"50\"  \"50\"   \"5\"   \"7\"   \"3\"   \"4\" \n\n$data\n# A tibble: 100 × 2\n   group values\n   &lt;dbl&gt;  &lt;dbl&gt;\n 1     1   6.93\n 2     1   3.75\n 3     1   2.31\n 4     1   5.07\n 5     1   3.85\n 6     1   4.09\n 7     1   3.76\n 8     1   7.04\n 9     1   9.21\n10     1   1.18\n# ℹ 90 more rows"
   },
   {
     "objectID": "slides/03_workflow.html#preparation",
@@ -609,179 +455,151 @@
     "text": "Tasks\n\nTask 1Task 2Task 3Task 4Task 5Task 6Task 7\n\n\nAdd assertions to improve the usability and user experience\n\n\n\n\n\n\nTip on assertions\n\n\nUse the package checkmate to validate input arguments.\n\n\n\nExample:\n\nplayWithAssertions &lt;- function(n1) {\n  checkmate::assertInt(n1, lower = 1)\n}\nplayWithAssertions(-1)\n\nError in playWithAssertions(-1) : Assertion on ‘n1’ failed: Element 1 is not &gt;= 1.\n\n\nAdd three additional results:\n\nn total,\ncreation time, and\nallocation ratio\n\n\n\n\n\n\n\nTip on creation time\n\n\nSys.time(), format(Sys.time(), '%B %d, %Y'), Sys.Date()\n\n\n\n\n\nAdd an additional result: t.test result\n\n\nAdd an optional alternative argument and pass it through t.test:\n\n\nalternative = c(\"two.sided\", \"less\", \"greater\")\n\n\n\nImplement the generic functions print and plot.\n\n\n\n\n\n\nTip on print\n\n\nUse the plot example function from above and extend it.\n\n\n\n\n\n\n\n\n\nTip on plot\n\n\nUse R base plot or ggplot2 to create a grouped boxplot of the fake data.\n\n\n\n\n\nOptional extra tasks:\n\nImplement the generic functions summary and cat\nImplement the function kable known from the package knitr as generic. Tip: use\n\nkable &lt;- function(x) UseMethod(\"kable\")\n\nto define kable as generic\n\n\n\nOptional extra task1:\nDocument your functions with Roxygen2\n\n\nIf you are already familiar with Roxygen2"
   },
   {
-    "objectID": "slides/07_shiny.html#why-are-best-practices-important-for-shiny",
-    "href": "slides/07_shiny.html#why-are-best-practices-important-for-shiny",
-    "title": "7 Shiny Development",
-    "section": "Why are best practices important for Shiny?",
-    "text": "Why are best practices important for Shiny?\n\nShiny is in itself more complex than usual R code\nSmall apps can quickly evolve into giant apps\nIt seems first possible to test everything by hand, clicking around\nFor one-off, throw-away, one-screen Shiny apps that is ok\nHere we talk about best practices for more-than-once used Shiny apps"
+    "objectID": "listing.html",
+    "href": "listing.html",
+    "title": "Slides",
+    "section": "",
+    "text": "1 Introduction\n\n\nGood Software Engineering Practice for R Packages\n\n\nIntroduction and outline of program.Photo CC0 by Mabel Amber on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nLiming and Joe\n\n\n\n\n\n\n\n\n\n\n\n\n2 R packages\n\n\nGood Software Engineering Practice for R Packages\n\n\nR package syntax + practicalPhoto CC0 by cottonbro studio on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nLiming\n\n\n\n\n\n\n\n\n\n\n\n\n3 An R Package Engineering Workflow\n\n\nGood Software Engineering Practice for R Packages\n\n\nWorkflow for creating R packages + practicalPhoto CC0 by Andrea Piacquadio on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nDaniel\n\n\n\n\n\n\n\n\n\n\n\n\n4 Ensuring Quality\n\n\nGood Software Engineering Practice for R Packages\n\n\nPackage quality + exercisePhoto CC0 by Pixabay on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nJoe Zhu\n\n\n\n\n\n\n\n\n\n\n\n\n5 Version Control & Collaboration\n\n\nGood Software Engineering Practice for R Packages\n\n\nCollaboration via GitHub + practicalPhoto CC0 by THIS IS ZUN on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nLiming\n\n\n\n\n\n\n\n\n\n\n\n\n6 Publication\n\n\nGood Software Engineering Practice for R Packages\n\n\nPublication of R packages + practicalPhoto CC0 by Andrea Piacquadio on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nLiming\n\n\n\n\n\n\n\n\n\n\n\n\n8 Conclusion\n\n\nGood Software Engineering Practice for R Packages\n\n\nDiscussion of learning experience, summary of workflow, conclusion and next steps.Photo by Ann H on pexels.com\n\n\n\n\n\nAug 1, 2024\n\n\nJoe Zhu\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "slides/07_shiny.html#design-collaborate-with-your-customer",
-    "href": "slides/07_shiny.html#design-collaborate-with-your-customer",
-    "title": "7 Shiny Development",
-    "section": "Design: Collaborate with your customer",
-    "text": "Design: Collaborate with your customer\n\nInvolve your customer from the first ideation\nIdentify the roles and responsibilities\nMake reasonable assumptions about user skills and knowledge\nShow early wireframes, prototypes, beta versions and get feedback"
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "PharmaSUG China 2024 Pre-conference Training",
+    "section": "",
+    "text": "Attribution 4.0 International\n=======================================================================\nCreative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.\nUsing Creative Commons Public Licenses\nCreative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.\n Considerations for licensors: Our public licenses are\n intended for use by those authorized to give the public\n permission to use material in ways otherwise restricted by\n copyright and certain other rights. Our licenses are\n irrevocable. Licensors should read and understand the terms\n and conditions of the license they choose before applying it.\n Licensors should also secure all rights necessary before\n applying our licenses so that the public can reuse the\n material as expected. Licensors should clearly mark any\n material not subject to the license. This includes other CC-\n licensed material, or material used under an exception or\n limitation to copyright. More considerations for licensors:\nwiki.creativecommons.org/Considerations_for_licensors\n\n Considerations for the public: By using one of our public\n licenses, a licensor grants the public permission to use the\n licensed material under specified terms and conditions. If\n the licensor's permission is not necessary for any reason--for\n example, because of any applicable exception or limitation to\n copyright--then that use is not regulated by the license. Our\n licenses grant only permissions under copyright and certain\n other rights that a licensor has authority to grant. Use of\n the licensed material may still be restricted for other\n reasons, including because others have copyright or other\n rights in the material. A licensor may make special requests,\n such as asking that all changes be marked or described.\n Although not required by our licenses, you are encouraged to\n respect those requests where reasonable. More considerations\n for the public: \nwiki.creativecommons.org/Considerations_for_licensees\n=======================================================================\nCreative Commons Attribution 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\n\nreproduce and Share the Licensed Material, in whole or in part; and\nproduce, reproduce, and Share Adapted Material.\n\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)\n\nnever produces Adapted Material.\n\nDownstream recipients.\n\nOffer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nNo downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\n\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\n\nretain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nindicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nindicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\n\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\nIf You Share Adapted Material You produce, the Adapter’s License You apply must not prevent recipients of the Adapted Material from complying with this Public License.\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.\nTO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES, COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n=======================================================================\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
   },
   {
-    "objectID": "slides/07_shiny.html#ui-design-wireframing",
-    "href": "slides/07_shiny.html#ui-design-wireframing",
-    "title": "7 Shiny Development",
-    "section": "UI Design: Wireframing",
-    "text": "UI Design: Wireframing\n\nWireframing is powerful for aligning in customer discussions\nFocus on the vision and functionality\nKeep the UI as simple as possible\nKnow your target as developer during coding and review process\nWireframing software:\n\ndraw.io\nBalsamiq\nMockplus"
+    "objectID": "slides/01_intro.html#disclaimer",
+    "href": "slides/01_intro.html#disclaimer",
+    "title": "1 Introduction",
+    "section": "Disclaimer",
+    "text": "Disclaimer\n\nAny opinions expressed in this presentation and on the following slides are solely those of the presenter and not necessarily those of Roche."
   },
   {
-    "objectID": "slides/07_shiny.html#ui-design-example-wireframe",
-    "href": "slides/07_shiny.html#ui-design-example-wireframe",
-    "title": "7 Shiny Development",
-    "section": "UI Design: Example wireframe",
-    "text": "UI Design: Example wireframe"
+    "objectID": "slides/01_intro.html#liming",
+    "href": "slides/01_intro.html#liming",
+    "title": "1 Introduction",
+    "section": "Liming",
+    "text": "Liming\n\n\n\nMaster in Biostatistics from Fudan University\nStatistical Programmer in Roche for 4 years, technical engineering lead for chevron team in NEST project\nMember of ASA BIOP working group on Software Engineering (SWE WG) mmrm taskforce\nFeel free to connect at  Github"
   },
   {
-    "objectID": "slides/07_shiny.html#architecture-minimize-code-in-shiny",
-    "href": "slides/07_shiny.html#architecture-minimize-code-in-shiny",
-    "title": "7 Shiny Development",
-    "section": "Architecture: Minimize code in Shiny",
-    "text": "Architecture: Minimize code in Shiny\n\nMinimize the code inside the Shiny UI/server\nBecause it will always be easier to test things that live outside of Shiny\nLet’s look at an example from the Mastering Shiny book"
+    "objectID": "slides/01_intro.html#joe",
+    "href": "slides/01_intro.html#joe",
+    "title": "1 Introduction",
+    "section": "Joe",
+    "text": "Joe\n\n\n\nPh.D. in Statistics\nPostdoc at the University of Oxford for 6 years, Data Scientist at Roche for the last 4 years, technical engineering lead for the NEST SME team, technical lead for auto-translation and slide automation initiatives at Roche.\nMultiple open-source packages on Github and CRAN, see this page for details.\nFeel free to connect at  LinkedIn or  Github"
   },
   {
-    "objectID": "slides/07_shiny.html#minimize-shiny-example-before",
-    "href": "slides/07_shiny.html#minimize-shiny-example-before",
-    "title": "7 Shiny Development",
-    "section": "Minimize Shiny Example: Before",
-    "text": "Minimize Shiny Example: Before\n\n\n\nserver &lt;- function(input, output, session) {\n  data &lt;- reactive({\n    req(input$file)\n    name &lt;- input$file$name\n    path &lt;- input$file$datapath\n    ext &lt;- tools::file_ext(name)\n    switch(ext,\n      csv = vroom::vroom(path, \",\"),\n      tsv = vroom::vroom(path, \"\\t\"),\n      validate(\"Invalid file\")\n    )\n  })\n  \n  output$head &lt;- renderTable({\n    head(data(), input$n)\n  })\n}\n\n\nThe ext and switch() part validates the file extension and then loads the file.\nIndependent of Shiny reactive!"
+    "objectID": "slides/01_intro.html#what-you-will-learn-today",
+    "href": "slides/01_intro.html#what-you-will-learn-today",
+    "title": "1 Introduction",
+    "section": "What you will learn today",
+    "text": "What you will learn today\n\nUnderstand the basic structure of an R package\nCreate your own R \nLearn about & apply professional  development workflow\nLearn & apply fundamentals of quality control for R \nGet crash-course in version control to stay organized\nTry out modern collaboration techniques on GitHub.com"
   },
   {
-    "objectID": "slides/07_shiny.html#minimize-shiny-example-after",
-    "href": "slides/07_shiny.html#minimize-shiny-example-after",
-    "title": "7 Shiny Development",
-    "section": "Minimize Shiny Example: After",
-    "text": "Minimize Shiny Example: After\n\n\n\nload_file &lt;- function(name, path) {\n  ext &lt;- tools::file_ext(name)\n  switch(ext,\n    csv = vroom::vroom(path, \",\"),\n    tsv = vroom::vroom(path, \"\\t\"),\n    validate(\"Invalid file\")\n  )\n}\n\nserver &lt;- function(input, output, session) {\n  data &lt;- reactive({\n    req(input$file)\n    load_file(\n      input$file$name, \n      input$file$datapath\n    )\n  })\n  \n  output$head &lt;- renderTable({\n    head(data(), input$n)\n  })\n}\n\n\n\nnormal function, validate() will give a simple error outside of Shiny\nserver is much easier to read now and only half the size\ncan test load_file() interactively in console\ncan unit tests load_file() separately (business as usual)"
+    "objectID": "slides/01_intro.html#program-outline",
+    "href": "slides/01_intro.html#program-outline",
+    "title": "1 Introduction",
+    "section": "Program outline",
+    "text": "Program outline\n\n\n\n\n\n13:30 - 14:00\nIntroduction and outline\n\n\n14:00 - 14:45\nR Package Syntax\n\n\n14:45 - 15:30\nSoftware Engineering Workflow\n\n\n15:30 - 15:45\nTea Break\n\n\n15:45 - 16:30\nPackage Quality\n\n\n16:30 - 17:15\nCollaboration via GitHub\n\n\n17:15 - 17:30\nSummary and Discussion"
   },
   {
-    "objectID": "slides/07_shiny.html#minimize-shiny-separate-packages",
-    "href": "slides/07_shiny.html#minimize-shiny-separate-packages",
-    "title": "7 Shiny Development",
-    "section": "Minimize Shiny: Separate packages",
-    "text": "Minimize Shiny: Separate packages\n\nOn the macro level, this also applies to packages\nLarger Shiny apps will need to live as an R package\nThe business logic best lives in another R package\nThat package can then also be used without the Shiny interface\nYou can use {staged.dependencies} to allow “joint” pull requests\nExample from the NEST package ecosystem:\n\n{teal.modules.clinical} as the Shiny package\n{tern} as a business logic package"
+    "objectID": "slides/01_intro.html#house-keeping",
+    "href": "slides/01_intro.html#house-keeping",
+    "title": "1 Introduction",
+    "section": "House-keeping",
+    "text": "House-keeping\n\nCourse website at pharmarug.github.io/pharmasug2024-r-workshop/\n\nall slides\nsources available at github.com/pharmarug/pharmasug2024-r-workshop\nall materials CC-BY 4.0\n\nWe have a WeChat channel for this course that you can connect to\n\nuse to ask your peers questions\nwill try to monitor during course"
   },
   {
-    "objectID": "slides/07_shiny.html#modules-building-blocks-of-the-shiny-app",
-    "href": "slides/07_shiny.html#modules-building-blocks-of-the-shiny-app",
-    "title": "7 Shiny Development",
-    "section": "Modules: Building blocks of the Shiny app",
-    "text": "Modules: Building blocks of the Shiny app\n\nShiny modules generalize functions\nAllows to coordinate UI and server code\nBreaks the app code into reusable and testable units\nLet’s look at an example from the Mastering Shiny book"
+    "objectID": "slides/01_intro.html#what-you-will-need",
+    "href": "slides/01_intro.html#what-you-will-need",
+    "title": "1 Introduction",
+    "section": "What you will need",
+    "text": "What you will need\n\nGithub.com (free) account \nRecommended: posit.cloud \n\nFree tier sufficient\nComes with everything installed\nAlternative: local R development environment with\n\ngit \nRtools/R/Rstudio IDE \n\n\nCuriosity 🦝\nPositive attitude 😄"
   },
   {
-    "objectID": "slides/07_shiny.html#modules-example-before",
-    "href": "slides/07_shiny.html#modules-example-before",
-    "title": "7 Shiny Development",
-    "section": "Modules Example: Before",
-    "text": "Modules Example: Before\n\n\n\n\n\n\n\n\n\nDifficult to understand what is going on\nNeed longer names / parentheses to differentiate tables / plots / variables in different places\nHard to test"
+    "objectID": "slides/01_intro.html#what-do-we-mean-by-gswep4r",
+    "href": "slides/01_intro.html#what-do-we-mean-by-gswep4r",
+    "title": "1 Introduction",
+    "section": "What do we mean by GSWEP4R*?",
+    "text": "What do we mean by GSWEP4R*?\n\n\nApplying concept of GxP to SWE with R\nImprove quality of R code/packages, particularly in regulated enviroments but not limited to!\nNot a fixed term, we share our perspectives\nCollection of best practices\nDo not reinvent the wheel: learn from IT/open source space\n\n\n* Good Software Engineering Practice for R"
   },
   {
-    "objectID": "slides/07_shiny.html#modules-example-after",
-    "href": "slides/07_shiny.html#modules-example-after",
-    "title": "7 Shiny Development",
-    "section": "Modules Example: After",
-    "text": "Modules Example: After\n\n\n\n\n\n\n\n\n\nCan easily see the 4 different parts of the app\nNaming becomes simpler for vars / tables / plots\nCan reuse the modules separately in other apps\nCan test the modules separately"
+    "objectID": "slides/01_intro.html#why-care-about-gswep4r",
+    "href": "slides/01_intro.html#why-care-about-gswep4r",
+    "title": "1 Introduction",
+    "section": "Why care about GSWEP4R?",
+    "text": "Why care about GSWEP4R?\n\nMove to / integration of R in pharma is clear trend\nR is a powerful yet complex ecosystem\n\nCore component: R packages\nMature analysts: users & contributors\nDeep understanding crucial, even to just assess quality\n\nAnalyses increasingly require complex scripts/programs  \\(\\leadsto\\) line between programming and data analysis blurs\nValue: de-risking use of R and efficiency gains"
   },
   {
-    "objectID": "slides/07_shiny.html#modules-considerations-similar-to-functions",
-    "href": "slides/07_shiny.html#modules-considerations-similar-to-functions",
-    "title": "7 Shiny Development",
-    "section": "Modules: Considerations similar to Functions",
-    "text": "Modules: Considerations similar to Functions\n\nWhat should be configurable?\n\nThink about reuse needs for module\n\nHow to organize arguments?\n\nUse consistent naming conventions\nKeep the right order of the arguments\n\nAvoid dependencies between arguments\n\nUse instead parameter object pattern\n\nHow to write good and maintainable code?\n\nFollow all the clean code rules from the previous chapter!"
+    "objectID": "slides/01_intro.html#start-small---from-script-to-package",
+    "href": "slides/01_intro.html#start-small---from-script-to-package",
+    "title": "1 Introduction",
+    "section": "Start small - from script to package",
+    "text": "Start small - from script to package\n\nEncapsulate behavior (functions)\nAvoid global state/variables\nAdopt consistent coding style\nDocument well\nAdd test cases\nVersion your code\nShare as ‘bundle’\n\n\\(\\leadsto\\) R package"
   },
   {
-    "objectID": "slides/07_shiny.html#reactivity-1",
-    "href": "slides/07_shiny.html#reactivity-1",
-    "title": "7 Shiny Development",
-    "section": "Reactivity",
-    "text": "Reactivity\nWhen building production shiny apps you won’t get around learning reactivity.\nSome guidance:\n\nKeep user interface simple → often keeps reactivity simple → often less confusing to user\nResolve reactive inputs early on & validate generously\nDesign towards “stringy” reactivity graphs\nDon’t interrupt reactivity\nPreferably use\n\nreactive over reactiveValues\nobserveEvent over observe"
+    "objectID": "slides/01_intro.html#the-r-package-ecosystem---huge-success",
+    "href": "slides/01_intro.html#the-r-package-ecosystem---huge-success",
+    "title": "1 Introduction",
+    "section": "The R package ecosystem - huge success",
+    "text": "The R package ecosystem - huge success"
   },
   {
-    "objectID": "slides/07_shiny.html#reactivity-resolve-early-validate",
-    "href": "slides/07_shiny.html#reactivity-resolve-early-validate",
-    "title": "7 Shiny Development",
-    "section": "Reactivity: Resolve early & validate",
-    "text": "Reactivity: Resolve early & validate\n\nserver &lt;- function(input, output, session) {\n  output$plot &lt;- renderPlot({\n    # Resolve reactive values.\n    xvar &lt;- input$xvar\n    yvar &lt;- input$yvar\n    req(xvar, yvar)\n    \n    # Validate – is it likely that the plot will be meaningful?\n    validate(\n      need(xvar %in% names(df), glue(\"xvar \\\"{xvar}\\\" does not exist\")),\n      need(yvar %in% names(df), glue(\"yvar \\\"{yvar}\\\" does not exist\")),\n      need(nrow(df) &gt; 3, \"too few data points for meaningful plot\")\n    )\n    \n    my_special_plot(df[[xvar]], df[[yvar]])\n  })\n}"
+    "objectID": "slides/01_intro.html#gxp-r",
+    "href": "slides/01_intro.html#gxp-r",
+    "title": "1 Introduction",
+    "section": "GxP + R  = ",
+    "text": "GxP + R  = \n\nCore infrastructure packages only through industry\nQuality, burden sharing: open-source pharmaverse and others\nOpen methodological packages can de-risk innovative methods\nR packages make (statistical/methodological) code\n\ntestable (with documented evidence thereof, CRF 11)\nreusable\nshareable\neasier to document"
   },
   {
-    "objectID": "slides/07_shiny.html#reactivity-debugging-techniques",
-    "href": "slides/07_shiny.html#reactivity-debugging-techniques",
-    "title": "7 Shiny Development",
-    "section": "Reactivity: Debugging techniques",
-    "text": "Reactivity: Debugging techniques\n\nPut browser() into the functions\nJump into browser mode upon error with options(shiny.error = browser)\nJust put print() inside the reactives\nSave variables to global environment via .GlobalEnv$var &lt;- var and then check\nSimplify things until it works and then go back"
+    "objectID": "slides/08_conclusion.html#r-package-structure",
+    "href": "slides/08_conclusion.html#r-package-structure",
+    "title": "8 Conclusion",
+    "section": "R package structure",
+    "text": "R package structure\n\nR package = folder structure with (many) conventions\nWith modern tools usethis, roxygen2 it is easy to start a new package\nPackaging a set of functions is an ideal way to share with collaborators and the public\nStart small and simple and over time you can learn additional options"
   },
   {
-    "objectID": "slides/07_shiny.html#reactivity-graph-visualization",
-    "href": "slides/07_shiny.html#reactivity-graph-visualization",
-    "title": "7 Shiny Development",
-    "section": "Reactivity: Graph visualization",
-    "text": "Reactivity: Graph visualization\nTo understand the order of execution we can visualize the reactive graph, which describes how sources and endpoints are connected via conductors.\n\n\n\ne.g. input\n\ne.g. reactive\n\ne.g. output"
+    "objectID": "slides/08_conclusion.html#engineering-workflow",
+    "href": "slides/08_conclusion.html#engineering-workflow",
+    "title": "8 Conclusion",
+    "section": "Engineering Workflow",
+    "text": "Engineering Workflow\n\nUse a workable workflow:\nIdea \\(\\rightarrow\\) Design docs \\(\\rightarrow\\) Programming \\(\\rightarrow\\) Quality check \\(\\rightarrow\\) Publication\n\nDon’t waste time on maintenance\nBe faster with release on CRAN\nFulfill regulatory requirements\n\nRefactor your one-off scripts that you want to use in a package\nUse assertions for all arguments \\(\\rightarrow\\) Usability/UX\nImplement common generics like print and plot"
   },
   {
-    "objectID": "slides/07_shiny.html#reactivity-stringy-reactivity-graph",
-    "href": "slides/07_shiny.html#reactivity-stringy-reactivity-graph",
-    "title": "7 Shiny Development",
-    "section": "Reactivity: “Stringy” reactivity graph",
-    "text": "Reactivity: “Stringy” reactivity graph\n\n\nBad  Many edges, difficult to anticipate reactivity behaviour\n\nGood  This “stringy” reactivity graph is easier to understand and debug"
+    "objectID": "slides/08_conclusion.html#ensuring-quality",
+    "href": "slides/08_conclusion.html#ensuring-quality",
+    "title": "8 Conclusion",
+    "section": "Ensuring Quality",
+    "text": "Ensuring Quality\n\nApply common clean code rules, e.g.,\n\nUse testthat to test, test, and test\nUse covr to improve the test coverage\nUse styler to optimize the code styling\nDon’t repeat yourself!\n\nYour rewards are:\n\nMaintainability,\nExtensibility, and\nPerformance!"
   },
   {
-    "objectID": "slides/07_shiny.html#testing-from-icecream-to-pyramid",
-    "href": "slides/07_shiny.html#testing-from-icecream-to-pyramid",
-    "title": "7 Shiny Development",
-    "section": "Testing: From Icecream to Pyramid",
-    "text": "Testing: From Icecream to Pyramid\n\n\nBad\n\n\ncannot always test manually\ncan easily introduce bugs\n\n\nGood\n\n\nmanual testing is reduced\nonly for “playing around”"
+    "objectID": "slides/08_conclusion.html#collaboration",
+    "href": "slides/08_conclusion.html#collaboration",
+    "title": "8 Conclusion",
+    "section": "Collaboration",
+    "text": "Collaboration\n\nVersion control is key\n\nMultiple people working on code without strong VC \\(\\leadsto\\) disaster!\nThere are different options, but git is the defacto standard for R packages\nGit needs a friend - use platforms like GitHub/GitLab/Bitbucket\n\nAutomated CI/CD allows for much quicker iteration\n\nAutomate tests to avoid bugs slipping back in\n\nTechnology does not solve everything - foster a positive culture\n\nKeep internal and external contributors engaged\nInvest in documentation to make it easier to contribute"
   },
   {
-    "objectID": "slides/07_shiny.html#testing-snapshot-tests-for-ui",
-    "href": "slides/07_shiny.html#testing-snapshot-tests-for-ui",
-    "title": "7 Shiny Development",
-    "section": "Testing: Snapshot tests for UI",
-    "text": "Testing: Snapshot tests for UI\n\n\n\ntest_that(\"myInput UI works\", {\n  input &lt;- \"foo\"\n  set.seed(123)\n  datasets &lt;- mock_datasets()\n  expect_snapshot(myInput(\n    \"my_test\",\n    datasets = datasets,\n    input = input\n  ))\n})\n\n\n\nShiny UI functions return shiny.tag objects which print as HTML code\nCan use snapshot tests to avoid accidental changes\nValue is limited\nCan create issues sometimes (non-reproducible hashes)"
+    "objectID": "slides/08_conclusion.html#publication",
+    "href": "slides/08_conclusion.html#publication",
+    "title": "8 Conclusion",
+    "section": "Publication",
+    "text": "Publication\n\npkgdown can help you easily create a nice website for your package\nVersions and licenses along with NEWS updates are important\nGitHub helps with tagging of release versions\nR-Hub helps with checking before CRAN submission"
   },
   {
-    "objectID": "slides/07_shiny.html#testing-shiny-server-tests",
-    "href": "slides/07_shiny.html#testing-shiny-server-tests",
-    "title": "7 Shiny Development",
-    "section": "Testing: Shiny server tests",
-    "text": "Testing: Shiny server tests\n\n\n\ntest_that(\"server works\", {\n  testServer(server, {\n    session$setInputs(...)\n\n    print(reactive1())\n    print(output$output1)\n    # etc\n\n    # To interactively play:\n    # browser()\n  \n    expect_equal(...)\n    # etc.\n  })\n})\n\n\n\nCode is run inside the server function\nCan access reactives, outputs, etc.\nSession object simulates user actions and time\nNote: need to insert browser()\nAlso works for module server functions\nLimitation: No UI, no JavaScript"
+    "objectID": "slides/08_conclusion.html#thank-you",
+    "href": "slides/08_conclusion.html#thank-you",
+    "title": "8 Conclusion",
+    "section": "Thank you!",
+    "text": "Thank you!\n\n\n\n\n\nIt was great to teach you today on how to build R packages\nLet’s keep in touch e.g. via gitter chat channel or wechat channel for this course that you can connect to\nWe welcome feedback on topics/format/content - reach out!"
   },
   {
-    "objectID": "slides/07_shiny.html#testing-shiny-app-tests",
-    "href": "slides/07_shiny.html#testing-shiny-app-tests",
-    "title": "7 Shiny Development",
-    "section": "Testing: Shiny app tests",
-    "text": "Testing: Shiny app tests\n\n\n\nlibrary(shinytest2)\ntest_that(\"my app works\", {\n  app &lt;- AppDriver$new(\n    app_dir = \"myAppDir\",\n    load_timeout = 1e5,\n    variant = platform_variant()\n  ) # app$get_logs()\n  app$wait_for_idle(timeout = 1e5)\n  app$get_screenshot()\n  app$set_inputs(name = \"Hadley\")\n  app$get_value(\"greeting\")\n  app$click(\"reset\")\n  app$get_value(\"greeting\")\n})\n\n\n\nUsually the app is defined in myAppDir/app.R\nNew app instance app from AppDriver$new()\nFull Shiny app in a headless chromote browser\nCan look into it via app$get_screenshot()\nWe can set inputs, get values of inputs/outputs, click buttons etc."
-  },
-  {
-    "objectID": "slides/07_shiny.html#security",
-    "href": "slides/07_shiny.html#security",
-    "title": "7 Shiny Development",
-    "section": "Security",
-    "text": "Security\n\nNever include passwords in your source code! Instead:\n\nUse environment variables\nOr use the {config} package\nAny files containing passwords must be added to .gitignore\n\nFor user authentication, start with existing solutions that are IT approved\n\nSee some best practices here and here.\n\nCode run in server() is isolated and cannot be seen by other users\n\nBut global environment, e.g. options, are shared across sessions\n\nCheck all user input via assertions or validations to avoid JavaScript hacking"
-  },
-  {
-    "objectID": "slides/07_shiny.html#packaging",
-    "href": "slides/07_shiny.html#packaging",
-    "title": "7 Shiny Development",
-    "section": "Packaging",
-    "text": "Packaging\nThe app should live in an R package. Why? Because we need:\n\nMetadata and dependencies: from DESCRIPTION + NAMESPACE files\nCode split into functions and modules: in files in the the R directory\nDocumentation via vignettes, README, and function and modules documentation\nAutomated tests: using testthat and the native R CMD check\nAble to share the package as tarball or via repositories for installation"
-  },
-  {
-    "objectID": "slides/07_shiny.html#deployment-options",
-    "href": "slides/07_shiny.html#deployment-options",
-    "title": "7 Shiny Development",
-    "section": "Deployment Options",
-    "text": "Deployment Options\n\nhttps://www.shinyapps.io/\n\nAllows for quick sharing of Shiny apps on the cloud\nFree version is good for quick tests or experiments\nSerious use needs subscription\n\nInternal Posit Connect is internal alternative\n\nMore features than above cloud service\nOne detail example: can use environment variables\nSee https://posit.co/products/open-source/shinyserver/ for the differences"
-  },
-  {
-    "objectID": "slides/07_shiny.html#deployment-process",
-    "href": "slides/07_shiny.html#deployment-process",
-    "title": "7 Shiny Development",
-    "section": "Deployment Process",
-    "text": "Deployment Process\nYou’ll need few extra steps:\n\nInstruct the server how to run the app in the package. Simplest is app.R in package root folder containing:\n\npkgload::load_all(\".\")\nmyApp() # = function in your package calling shinyApp()\n\nIgnore the app.R for package build\nInclude shiny and pkgload to the Imports in the DESCRIPTION file\nRun rsconnect::deployApp() to share the updated app version!"
+    "objectID": "slides/08_conclusion.html#possible-next-steps",
+    "href": "slides/08_conclusion.html#possible-next-steps",
+    "title": "8 Conclusion",
+    "section": "Possible next steps",
+    "text": "Possible next steps\n\nBring the information back to your colleagues in your organization\nStart building your first own package and share internally first\nLater publish it open source on GitHub and submit it to CRAN\nLearn about more tips and tricks how to extend R"
   },
   {
     "objectID": "slides/05_collaboration.html#disclaimer",
@@ -816,7 +634,7 @@
     "href": "slides/05_collaboration.html#version-control-systems-vcs",
     "title": "5 Version Control & Collaboration",
     "section": "Version control systems (VCS)",
-    "text": "Version control systems (VCS)\n\nManage different versions of a piece of work\nCompare and merge diverged versions effectively1\n\n\n\n\n\n\nflowchart LR\n  A[&lt;font size=4&gt; Shuang v1] --&gt; B[&lt;font size=4&gt; Shuang v2]\n  B --&gt; C[&lt;font size=4&gt; Shuang v3]\n  B --&gt; D[&lt;font size=4&gt; Joe v1]\n  D --&gt; E[&lt;font size=4&gt; Joe + Shuang v4]\n  C --&gt; E\n\n\n\n\n\n\n\nCode is complex system \\(\\leadsto\\) ideal application of VCS\nCompounded by multiple people ‘fiddling’ with it!\n\nMerging parallel edits is not simple (try it in MS Word 365)"
+    "text": "Version control systems (VCS)\n\nManage different versions of a piece of work\nCompare and merge diverged versions effectively1\n\n\n\n\n\n\nflowchart LR\n  A[&lt;font size=4&gt; Liming v1] --&gt; B[&lt;font size=4&gt; Liming v2]\n  B --&gt; C[&lt;font size=4&gt; Liming v3]\n  B --&gt; D[&lt;font size=4&gt; Joe v1]\n  D --&gt; E[&lt;font size=4&gt; Joe + Liming v4]\n  C --&gt; E\n\n\n\n\n\n\n\nCode is complex system \\(\\leadsto\\) ideal application of VCS\nCompounded by multiple people ‘fiddling’ with it!\n\nMerging parallel edits is not simple (try it in MS Word 365)"
   },
   {
     "objectID": "slides/05_collaboration.html#enter-git-the-latin-of-data-science",
@@ -900,7 +718,7 @@
     "href": "slides/05_collaboration.html#a-typical-github-workflow",
     "title": "5 Version Control & Collaboration",
     "section": "A typical GitHub workflow",
-    "text": "A typical GitHub workflow\n\n\n\n\n\nsequenceDiagram\n    participant S as Shuang\n    participant GH as GitHub server\n    participant J as Joe\n    S-&gt;&gt;S: make change locally & commit to &lt;feature&gt;\n    S-&gt;&gt;GH: push commit\n    S-&gt;&gt;GH: open pull request\n    GH-&gt;&gt;GH: run automated checks\n    S-&gt;&gt;J: request review\n    J-&gt;&gt;J: review code\n    J-&gt;&gt;S: request changes\n    S-&gt;&gt;S: implement changes locally & commit\n    S-&gt;&gt;GH: push commit\n    GH-&gt;&gt;GH: run automated checks\n    S-&gt;&gt;J: request review\n    J-&gt;&gt;J: review code\n    J-&gt;&gt;GH: approve changes, unblocking merge\n    S-&gt;&gt;GH: merge &lt;feature&gt; into &lt;main&gt;\n    GH-&gt;&gt;GH: run automated checks on &lt;main&gt;\n    J-&gt;&gt;GH: pull newest version of &lt;main&gt;"
+    "text": "A typical GitHub workflow\n\n\n\n\n\nsequenceDiagram\n    participant S as Liming\n    participant GH as GitHub server\n    participant J as Joe\n    S-&gt;&gt;S: make change locally & commit to &lt;feature&gt;\n    S-&gt;&gt;GH: push commit\n    S-&gt;&gt;GH: open pull request\n    GH-&gt;&gt;GH: run automated checks\n    S-&gt;&gt;J: request review\n    J-&gt;&gt;J: review code\n    J-&gt;&gt;S: request changes\n    S-&gt;&gt;S: implement changes locally & commit\n    S-&gt;&gt;GH: push commit\n    GH-&gt;&gt;GH: run automated checks\n    S-&gt;&gt;J: request review\n    J-&gt;&gt;J: review code\n    J-&gt;&gt;GH: approve changes, unblocking merge\n    S-&gt;&gt;GH: merge &lt;feature&gt; into &lt;main&gt;\n    GH-&gt;&gt;GH: run automated checks on &lt;main&gt;\n    J-&gt;&gt;GH: pull newest version of &lt;main&gt;"
   },
   {
     "objectID": "slides/05_collaboration.html#looks-awefully-complicated-why",
