@@ -26,6 +26,10 @@ Please note that all the content will be in English, delivered in English and Ch
 This event is sponsored/organized by PharamaSUG and advertised also through
 the R User Group (RUG) China. Presenters will be Liming Li and Joe Zhu.
 
+## Future Event
+
+Our volunteers are working with DIA for future event planning. Stay tuned ...
+
 ## Communication
 
 We offer a [gitter chat channel](https://matrix.to/#/#workshop-r-swe_community:gitter.im) to communicate before, during, and after the course.
