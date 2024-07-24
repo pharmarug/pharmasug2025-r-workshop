@@ -765,6 +765,74 @@ Liming
 <li>The purpose of this exercise is to explore the collaboration functionality of GitHub - not to produce a perfect package ;)</li>
 </ul>
 </section></section>
+<section>
+<section id="open-sorurcing-and-tagging-on-github" class="title-slide slide level1 center">
+<h1>Open sorurcing and tagging on GitHub</h1>
+
+</section>
+<section id="open-sourcing" class="slide level2">
+<h2>Open Sourcing</h2>
+<ul>
+<li>The easiest way to “open source” your R package is to make the GitHub repository public</li>
+<li>This allows for easy open source contributions from other developers via pull requests</li>
+<li>Please check with your organization first:
+<ul>
+<li>Are they ok to publish the software?</li>
+<li>What is the appropriate copyright holder?</li>
+</ul></li>
+<li>Also allows bugs to be filed and to have the GitHub issues page in the package description</li>
+</ul>
+</section>
+<section id="versioning" class="slide level2">
+<h2>Versioning</h2>
+<ul>
+<li>The <code>Version</code> field defines the package version</li>
+<li>Syntax: Three integers separated by <code>.</code> or <code>-</code>
+<ul>
+<li>Canonical form is: <code>x.y-z</code>, equivalent to <code>x.y.z</code></li>
+</ul></li>
+<li>Useful conventions of “semantic versioning”:
+<ul>
+<li><code>x</code> is major: Increment this for breaking changes</li>
+<li><code>y</code> is minor: Increment this for new features</li>
+<li><code>z</code> is patch: Increment this for bug fixes only</li>
+<li><code>x.y.z.9000</code> and count up during development</li>
+<li><code>usethis::use_version()</code> can help with this</li>
+</ul></li>
+</ul>
+</section>
+<section id="tags" class="slide level2">
+<h2>Tags</h2>
+<ul>
+<li>Tags are a feature of Git, i.e., not specific to GitHub</li>
+<li>Git can tag specific points in the code history as being important</li>
+<li>Typically, for each release, create a tag <code>vx.y.z</code></li>
+<li>The value here is that users can later check out the package in the state of this release version
+<ul>
+<li>Download in R: <code>remotes::install_github("org/package", ref = "vx.y.z")</code></li>
+<li>Comparison of versions are also possible, etc.</li>
+</ul></li>
+</ul>
+</section>
+<section id="tags-example" class="slide level2">
+<h2>Tags: Example</h2>
+
+<img data-src="resources/tags.png" class="r-stretch"></section>
+<section id="releases" class="slide level2">
+<h2>Releases</h2>
+<ul>
+<li>Based on Git tags, and a feature of GitHub</li>
+<li>Are “deployable software packages to make them available for a wider audience to download and use”</li>
+<li>Contain release notes and links to the binary package files for download
+<ul>
+<li>However, for R packages these <code>tar.gz</code> package files are rarely used directly</li>
+</ul></li>
+</ul>
+</section>
+<section id="releases-example" class="slide level2">
+<h2>Releases: Example</h2>
+
+<img data-src="resources/releases.png" class="r-stretch"></section></section>
 <section id="license-information" class="title-slide slide level1 center">
 <h1>License information</h1>
 <ul>
