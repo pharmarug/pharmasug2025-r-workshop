@@ -1,6 +1,6 @@
 ---
 title: "6 Conclusion"
-author: "Joe Zhu"
+author: "Liming and Joe"
 description: "Discussion of learning experience, summary of workflow, conclusion and next steps.</br>[Photo by Ann H on pexels.com]{.copyright}"
 image: thumbnails/conclusion.jpg
 ---
