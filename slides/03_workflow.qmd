@@ -222,9 +222,7 @@ pexels.com]{.copyright}](thumbnails/workflow3.jpg){fig-align="center"}
 3.  R package programming
 4.  Quality check (see [Ensuring Quality](04_quality.html) by
     [Joe](https://github.com/shajoezhu))
-5.  Publication (see [Publication](06_publication.html) by
-    [Liming](https://github.com/clarkliming))
-6.  Use in production
+5.  Use in production
 
 ## Example - Step 1: Idea
 
