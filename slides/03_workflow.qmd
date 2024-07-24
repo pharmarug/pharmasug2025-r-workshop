@@ -448,6 +448,69 @@ x
 ```
 :::
 
+
+# Website with `pkgdown`
+
+```{r, echo = FALSE, results = 'hide'}
+# Workaround for the following Quarto issue (do not remove):
+# Quarto will not render embedded R code unless at least one R code chunk exists
+```
+
+## Setup of `pkgdown`
+
+- `pkgdown` makes it quick and easy to build a website for your package
+- After installing `pkgdown`, just use `usethis::use_pkgdown()` to get started
+- Main configuration happens in `_pkgdown.yml` file
+- Many customizations can be applied, but main work during development is to 
+  keep the `reference` section updated with names of `.Rd` files
+  
+## Example `_pkgdown.yml` file
+
+```yaml
+---
+url: https://openpharma.github.io/mmrm
+
+template:
+  bootstrap: 5
+  params:
+    ganalytics: UA-125641273-1
+
+navbar:
+  right:
+    - icon: fa-github
+      href: https://github.com/openpharma/mmrm
+
+reference:
+  - title: Package
+    contents:
+      - mmrm-package
+  - title: Functions
+    contents:
+      - mmrm
+      - fit_mmrm
+      - mmrm_control
+      - fit_single_optimizer
+      - refit_multiple_optimizers
+      - df_1d
+      - df_md
+      - component
+```
+
+##  {background-iframe="https://openpharma.github.io/mmrm/main/reference/index.html" background-interactive="true"}
+
+## Publication as GitHub Page
+
+- It is helpful for users to read the website online
+- GitHub is very helpful here because it allows
+  - A separate branch `gh-pages` that stores the rendered website
+  - GitHub actions automatically render the website when the `main` branch
+    is updated
+- To get started, use `usethis::use_pkgdown_github_pages()`
+  - Or, manually deploy site with `pkgdown::deploy_to_branch()`
+
+##  {background-iframe="https://openpharma.github.io/mmrm/main/" background-interactive="true"}
+
+
 # Exercise
 
 ![[Photo CC0 by Pixabay on

@@ -372,6 +372,59 @@ sequenceDiagram
 -   The purpose of this exercise is to explore the collaboration
     functionality of GitHub - not to produce a perfect package ;)
 
+
+# Open sorurcing and tagging on GitHub
+
+## Open Sourcing
+
+- The easiest way to "open source" your R package is to make the GitHub repository public
+- This allows for easy open source contributions from other developers via pull requests
+- Please check with your organization first: 
+  - Are they ok to publish the software?
+  - What is the appropriate copyright holder? 
+- Also allows bugs to be filed and to have
+  the GitHub issues page in the package description
+  
+## Versioning
+
+- The `Version` field defines the package version
+- Syntax: Three integers separated by `.` or `-`
+  - Canonical form is: `x.y-z`, equivalent to `x.y.z`
+- Useful conventions of "semantic versioning": 
+  - `x` is major: Increment this for breaking changes
+  - `y` is minor: Increment this for new features
+  - `z` is patch: Increment this for bug fixes only
+  - `x.y.z.9000` and count up during development
+  - `usethis::use_version()` can help with this
+
+
+## Tags
+
+- Tags are a feature of Git, i.e., not specific to GitHub
+- Git can tag specific points in the code history as being important
+- Typically, for each release, create a tag `vx.y.z`
+- The value here is that users can later check out the package 
+  in the state of this release version
+  - Download in R: `remotes::install_github("org/package", ref = "vx.y.z")`
+  - Comparison of versions are also possible, etc.
+
+## Tags: Example
+
+![](resources/tags.png)
+
+## Releases
+
+- Based on Git tags, and a feature of GitHub
+- Are "deployable software packages to make them available for a wider audience to download and use"
+- Contain release notes and links to the binary package files for download
+  - However, for R packages these `tar.gz` package files are rarely used directly
+
+## Releases: Example
+
+![](resources/releases.png)
+
+
+
 # License information
 
 - Creators (initial authors): 
