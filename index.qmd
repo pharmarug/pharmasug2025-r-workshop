@@ -47,6 +47,7 @@ Prior to the course, participants should
 -   set up a (free) [GitHub.com account](https://github.com/join). There are other git Platforms like [Gitlab](https://about.gitlab.com/) or [Bitbucket](https://bitbucket.org/) but we made the choice to go with GitHub.com for the course since it is by far the most relevant git platform in the R community.
 -   download and extract [simulatr.zip](slides/download/simulatr.zip)
 -   either make sure they have a working R software development setup on their own laptop (up-to-date git/Rtools/R/RStudio) or get access to <https://posit.cloud>. The latter offers a free tier account with 25 hours of computing time per months and can be accessed using ones GitHub.com account.
+-   in your rstudio terminal, set the ssh key by `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`, then use command `cat ~/.ssh/id_rsa.pub` to show your public key, and copy and paste it to https://github.com/settings/keys, with the name "pharmasug-2024-key".
 
 For the course, participants are required to use their own laptop to be able to participate in the exercises.
 
