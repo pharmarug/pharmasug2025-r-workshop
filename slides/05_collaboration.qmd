@@ -337,9 +337,9 @@ sequenceDiagram
     S->>J: request review
     J->>J: review code
     J->>GH: approve changes, unblocking merge
-    S->>GH: merge <feature> into <main>
+    GH->>GH: merge <feature> into <main>
     GH->>GH: run automated checks on <main>
-    J->>GH: pull newest version of <main>
+    GH->>J: pull newest version of <main>
 ```
 
 ## Looks awefully complicated, why?

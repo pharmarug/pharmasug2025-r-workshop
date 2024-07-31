@@ -30,10 +30,6 @@ the R User Group (RUG) China. Presenters will be Liming Li and Joe Zhu.
 
 Our volunteers are working with DIA for future event planning. Stay tuned ...
 
-## Communication
-
-We offer a [gitter chat channel](https://matrix.to/#/#workshop-r-swe_community:gitter.im) to communicate before, during, and after the course.
-
 ## Workshop Program
 
 This is the program for 1st August 2024, all times in China Standard Time (GMT+8):

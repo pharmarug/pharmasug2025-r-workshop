@@ -1,6 +1,6 @@
 ---
 title: "1 Introduction"
-author: "Liming and Joe"
+author: "Liming"
 description: "Introduction and outline of program.</br>[Photo CC0 by Mabel Amber on pexels.com]{.copyright}"
 image: thumbnails/hello.jpg
 ---
@@ -17,8 +17,9 @@ image: thumbnails/hello.jpg
 ::: columns
 ::: {.column width="70%"}
 -   Master in Biostatistics from Fudan University
--   Statistical Programmer in Roche for 4 years, technical engineering lead for chevron team in NEST project
--   Member of ASA BIOP working group on Software Engineering (SWE WG) mmrm taskforce
+-   Statistical Programmer in Roche for 5 years, technical engineering lead for chevron team in NEST project
+-   Member of ASA BIOP working group on Software Engineering (openstatsware)[https://openstatsware.org/]
+-   Author of multiple open source R packages including `mmrm`, `sasr` and `RobinCar2`
 -   Feel free to connect at [`r fontawesome::fa("github")` Github](https://github.com/clarkliming "Liming GitHub")
 :::
 
