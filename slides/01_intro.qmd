@@ -18,7 +18,7 @@ image: thumbnails/hello.jpg
 ::: {.column width="70%"}
 -   Master in Biostatistics from Fudan University
 -   Statistical Programmer in Roche for 5 years, technical engineering lead for chevron team in NEST project
--   Member of ASA BIOP working group on Software Engineering (openstatsware)[https://openstatsware.org/]
+-   Member of ASA BIOP working group on Software Engineering [openstatsware](https://openstatsware.org/)
 -   Author of multiple open source R packages including `mmrm`, `sasr` and `RobinCar2`
 -   Feel free to connect at [`r fontawesome::fa("github")` Github](https://github.com/clarkliming "Liming GitHub")
 :::
