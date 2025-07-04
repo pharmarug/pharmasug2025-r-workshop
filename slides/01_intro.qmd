@@ -49,7 +49,7 @@ image: thumbnails/hello.jpg
 ::: {.column width="70%"}
 -   Master in Pharmacology from Fudan University
 -   Senior Clinical Data Scientist in Roche for 7 years, lead multiple Data Mart Projects for secondary use of clinical data
--   Lead and developed multiple internal R packages and Shiny App for data review and data curation
+-   Lead and developed multiple internal R packages and Shiny Apps for data review and data curation
 -   Feel free to connect at [`r fontawesome::fa("github")` Github](https://github.com/shuangli22 "Shuang GitHub")
 :::
 
