@@ -43,6 +43,19 @@ image: thumbnails/hello.jpg
 :::
 :::
 
+## Zhenglin
+
+::: columns
+::: {.column width="70%"}
+-   Bachelor in Biotechnology 
+-   Data engineer in Roche for 3 years, developed R packages and Shiny applications internally
+-   Feel free to connect at [`r fontawesome::fa("github")` Github](https://github.com/zlinruan "Zhenglin Ruan at GitHub")
+:::
+
+::: {.column width="30%"}
+![](resources/zhenglin.jpg)
+:::
+:::
 
 ## What you will learn today
 
