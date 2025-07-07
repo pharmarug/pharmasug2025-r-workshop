@@ -1,6 +1,6 @@
 ---
 title: "1 Introduction"
-author: "Liming"
+author: "Joe Zhu"
 description: "Introduction and outline of program.</br>[Photo CC0 by Mabel Amber on pexels.com]{.copyright}"
 image: thumbnails/hello.jpg
 ---
@@ -12,21 +12,6 @@ image: thumbnails/hello.jpg
 *Any opinions expressed in this presentation and on the following slides are solely those of the presenter and not necessarily those of Roche.*
 
 
-## Liming
-
-::: columns
-::: {.column width="70%"}
--   Master in Biostatistics from Fudan University
--   Statistical Programmer in Roche for 5 years, technical engineering lead for chevron team in NEST project
--   Member of ASA BIOP working group on Software Engineering [openstatsware](https://openstatsware.org/)
--   Author of multiple open source R packages including `mmrm`, `sasr` and `RobinCar2`
--   Feel free to connect at [`r fontawesome::fa("github")` Github](https://github.com/clarkliming "Liming GitHub")
-:::
-
-::: {.column width="30%"}
-![](resources/liming.jpg)
-:::
-:::
 
 ## Joe
 
@@ -43,6 +28,36 @@ image: thumbnails/hello.jpg
 :::
 :::
 
+## Shuang
+
+::: columns
+::: {.column width="70%"}
+-   Master in Pharmacology from Fudan University
+-   Senior Clinical Data Scientist in Roche for 7 years, lead multiple Data Mart Projects for secondary use of clinical data
+-   Lead and developed multiple internal R packages and Shiny Apps for data review and data curation
+-   Feel free to connect at [`r fontawesome::fa("github")` Github](https://github.com/shuangli22 "Shuang GitHub")
+:::
+
+::: {.column width="30%"}
+![](resources/Shuang.jpg)
+:::
+:::
+
+## Zhenglin
+
+::: columns
+::: {.column width="70%"}
+-   Bachelor in Biotechnology 
+-   Data engineer in Roche for 3 years, developed R packages and Shiny applications internally
+-   Feel free to connect at [`r fontawesome::fa("github")` Github](https://github.com/zlinruan "Zhenglin Ruan at GitHub")
+:::
+
+::: {.column width="30%"}
+![](resources/zhenglin.jpg)
+:::
+:::
+
+
 ## Chunyan
 
 ::: columns
@@ -54,7 +69,6 @@ image: thumbnails/hello.jpg
   
 ::: {.column width="30%"}
 ![](resources/Chunyan.jpg)
-
 :::
 :::
 
