@@ -12,7 +12,7 @@ In the current version, changes were done by (later authors):
 - Joe Zhu, https://github.com/shajoezhu and http://www.linkedin.com/in/joe-zhu-464b5818
 License: This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
-The source files are hosted at https://github.com/pharmarug/pharmasug2024-r-workshop, which is forked from
+The source files are hosted at https://github.com/pharmarug/pharmasug2025-r-workshop, which is forked from
 the original version at https://github.com/openpharma/workshop-r-swe.
 Important: To use this work you must provide the name of the creators (initial authors), a link to the material, a link to the license, and indicate if changes were made.
 --> 
@@ -21,18 +21,15 @@ Welcome to the homepage of the workshop *"Good Software Engineering Practice for
 
 ## Up-coming Event
 
-The next event will be on-site, at the Beijing Marriott Hotel Northeast, on August 1st, 2024.
+The next event will be on-site, at the Radisson Collection Hotel, Yangtze Shanghai, on July 31st, 2025.
+
 Please note that all the content will be in English, delivered in English and Chinese. 
-This event is sponsored/organized by PharamaSUG and advertised also through
-the R User Group (RUG) China. Presenters will be Liming Li and Joe Zhu.
-
-## Future Event
-
-Our volunteers are working with DIA for future event planning. Stay tuned ...
+This event is sponsored/organized by PharmaSUG and advertised also through
+the R User Group (RUG) China. Presenters will be Shuang Li, Zhenglin Ruan, Chunyan Wu and Joe Zhu.
 
 ## Workshop Program
 
-This is the program for 1st August 2024, all times in China Standard Time (GMT+8):
+This is the program for 31st July 2025, all times in China Standard Time (GMT+8):
 
 ```{r}
 #| echo: false
@@ -47,7 +44,7 @@ Prior to the course, participants should
 -   set up a (free) [GitHub.com account](https://github.com/join). There are other git Platforms like [Gitlab](https://about.gitlab.com/) or [Bitbucket](https://bitbucket.org/) but we made the choice to go with GitHub.com for the course since it is by far the most relevant git platform in the R community.
 -   download and extract [simulatr.zip](slides/download/simulatr.zip)
 -   either make sure they have a working R software development setup on their own laptop (up-to-date git/Rtools/R/RStudio) or get access to <https://posit.cloud>. The latter offers a free tier account with 25 hours of computing time per months and can be accessed using ones GitHub.com account.
--   in your rstudio terminal, set the ssh key by `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`, then use command `cat ~/.ssh/id_rsa.pub` to show your public key, and copy and paste it to https://github.com/settings/keys, with the name "pharmasug-2024-key".
+-   in your rstudio terminal, set the ssh key by `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`, then use command `cat ~/.ssh/id_rsa.pub` to show your public key, and copy and paste it to https://github.com/settings/keys, with the name "pharmasug-2025-key".
 
 For the course, participants are required to use their own laptop to be able to participate in the exercises.
 
@@ -63,5 +60,6 @@ For the course, participants are required to use their own laptop to be able to 
 
 ## Past Events
 
+- 1st August 2024, Beijing
 - 24th March 2023, Shanghai
 - 10th February 2023, Basel
