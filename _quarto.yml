@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "PharmaSUG China 2024 Pre-conference Training"
+  title: "PharmaSUG China 2025 Pre-conference Training"
   description: "Good Software Engineering Practice with R"
-  site-url: https://pharmarug.github.io/pharmasug2024-r-workshop/
+  site-url: https://pharmarug.github.io/pharmasug2025-r-workshop/
   search: true
   navbar:
     left:
@@ -17,10 +17,10 @@ website:
         icon: "file-earmark-slides"
   page-footer:
     center:
-      - text: "PharmaSUG 2024"
+      - text: "PharmaSUG 2025"
         href: https://www.pharmasug-china.org/
       - text: "Source Code on GitHub"
-        href: https://github.com/pharmarug/pharmasug2024-r-workshop
+        href: https://github.com/pharmarug/pharmasug2025-r-workshop
 
 format:
   html:

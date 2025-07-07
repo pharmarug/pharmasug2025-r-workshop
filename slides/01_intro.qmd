@@ -1,6 +1,6 @@
 ---
 title: "1 Introduction"
-author: "Joe Zhu"
+author: "Shuang Li"
 description: "Introduction and outline of program.</br>[Photo CC0 by Mabel Amber on pexels.com]{.copyright}"
 image: thumbnails/hello.jpg
 ---
@@ -93,9 +93,9 @@ readr::read_csv("resources/program.csv", col_types = "cc") |>
 
 ## House-keeping
 
--   Course website at [pharmarug.github.io/pharmasug2024-r-workshop/](https://pharmarug.github.io/pharmasug2024-r-workshop/)
+-   Course website at [pharmarug.github.io/pharmasug2025-r-workshop/](https://pharmarug.github.io/pharmasug2024-r-workshop/)
     -   all slides
-    -   sources available at [github.com/pharmarug/pharmasug2024-r-workshop](https://github.com/pharmarug/pharmasug2024-r-workshop)
+    -   sources available at [github.com/pharmarug/pharmasug2025-r-workshop](https://github.com/pharmarug/pharmasug2024-r-workshop)
     -   all materials CC-BY 4.0
 -   We have a WeChat channel for this course that you can connect to
     -   use to ask your peers questions
