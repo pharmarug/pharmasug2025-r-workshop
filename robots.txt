@@ -1,1 +1,1 @@
-Sitemap: https://pharmarug.github.io/pharmasug2024-r-workshop/sitemap.xml
+Sitemap: https://pharmarug.github.io/pharmasug2025-r-workshop/sitemap.xml
