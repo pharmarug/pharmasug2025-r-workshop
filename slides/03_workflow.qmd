@@ -195,7 +195,7 @@ ggplot(effortData, aes(x = "", y = prop, fill = class)) +
 :::
 
 [^1]: See also [Ensuring Quality](04_quality.html) by
-    [Joe](https://github.com/shajoezhu)
+    [Chunyan](https://github.com/wuc66wuc)
 
 ## Why practice good engineering?
 
@@ -221,7 +221,7 @@ pexels.com]{.copyright}](thumbnails/workflow3.jpg){fig-align="center"}
 2.  Design docs
 3.  R package programming
 4.  Quality check (see [Ensuring Quality](04_quality.html) by
-    [Joe](https://github.com/shajoezhu))
+    [Chunyan](https://github.com/wuc66wuc))
 5.  Use in production
 
 ## Example - Step 1: Idea
@@ -305,14 +305,14 @@ UML Diagram
 **R package programming**
 
 1.  Create basic package project (see [R Packages](02_r_packages.html) by
-    [Liming](https://github.com/clarkliming))
+    [Shuang](https://github.com/shuangli22))
 2.  C&P existing R scripts (one-off scripts, prototype functions) and
     refactor[^6] it if necessary
 3.  Create R generic functions
 4.  Document all functions
 
 [^6]: See also [Ensuring Quality](04_quality.html) by
-    [Joe](https://github.com/shajoezhu)
+    [Chunyan](https://github.com/wuc66wuc)
 
 ## Example - Step 3: Packaging
 
@@ -647,5 +647,5 @@ Document your functions with
 - In the current version, changes were done by (later authors):
   Joe Zhu [`r fontawesome::fa("github")`](https://github.com/shajoezhu) [`r fontawesome::fa("linkedin")`](http://www.linkedin.com/in/joe-zhu-464b5818)
 - This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
-- The source files are hosted at [github.com/pharmarug/pharmasug2024-r-workshop]( https://github.com/pharmarug/pharmasug2024-r-workshop), which is forked from the original version at [github.com/openpharma/workshop-r-swe](https://github.com/openpharma/workshop-r-swe).
+- The source files are hosted at [github.com/pharmarug/pharmasug2025-r-workshop]( https://github.com/pharmarug/pharmasug2025-r-workshop), which is forked from the original version at [github.com/openpharma/workshop-r-swe](https://github.com/openpharma/workshop-r-swe).
 - Important: To use this work you must provide the name of the creators (initial authors), a link to the material, a link to the license, and indicate if changes were made
