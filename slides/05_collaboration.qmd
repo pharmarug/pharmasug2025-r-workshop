@@ -71,10 +71,10 @@ Photo from <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_
 
 ```{mermaid}
 flowchart LR
-  A[<font size=4> Liming v1] --> B[<font size=4> Liming v2]
-  B --> C[<font size=4> Liming v3]
-  B --> D[<font size=4> Joe v1]
-  D --> E[<font size=4> Joe + Liming v4]
+  A[<font size=4> Zhenglin v1] --> B[<font size=4> Zhenglin v2]
+  B --> C[<font size=4> Zhenglin v3]
+  B --> D[<font size=4> Chunyan v1]
+  D --> E[<font size=4> Chunyan + Zhenglin v4]
   C --> E
 ```
 
@@ -321,9 +321,9 @@ gitGraph
 
 ```{mermaid}
 sequenceDiagram
-    participant S as Liming
+    participant S as Zhenglin
     participant GH as GitHub server
-    participant J as Joe
+    participant J as Chunyan
     S->>S: make change locally & commit to <feature>
     S->>GH: push commit
     S->>GH: open pull request
@@ -431,6 +431,7 @@ sequenceDiagram
   Kevin Kunzmann [`r fontawesome::fa("github")`](https://github.com/kkmann/) [`r fontawesome::fa("linkedin")`](https://www.linkedin.com/in/kevin-kunzmann-6486a11bb/)
 - In the current version, changes were done by (later authors):
   Joe Zhu [`r fontawesome::fa("github")`](https://github.com/shajoezhu)
+  Chunyan Wu [`r fontawesome::fa("github")`](https://github.com/wuc66wuc)
 - This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
-- The source files are hosted at [github.com/pharmarug/pharmasug2024-r-workshop]( https://github.com/pharmarug/pharmasug2024-r-workshop), which is forked from the original version at [github.com/openpharma/workshop-r-swe](https://github.com/openpharma/workshop-r-swe).
+- The source files are hosted at [github.com/pharmarug/pharmasug2025-r-workshop]( https://github.com/pharmarug/pharmasug2025-r-workshop), which is forked from the original version at [github.com/openpharma/workshop-r-swe](https://github.com/openpharma/workshop-r-swe).
 - Important: To use this work you must provide the name of the creators (initial authors), a link to the material, a link to the license, and indicate if changes were made
